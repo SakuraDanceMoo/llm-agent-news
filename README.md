@@ -33,6 +33,8 @@ Set-Location D:\AgentProject2026
 
 当前 Codex 会话没有暴露 `automation_update` 工具，因而不能直接注册“打开 Codex 即向对话推送”的产品级自动化。`run_daily_update.ps1` 是可执行的本地入口；如需系统级每日运行，可在 Windows 任务计划程序中调用它。Codex 打开后读取 `news/latest.md` 即可获得当天前三条。
 
+已注册当前用户任务 `Codex-LLM-Agent-News`，触发器为用户登录和每天 08:00；任务会更新 `news/latest_feed.md`，不会替换带人工证据边界的每日中文摘要。
+
 ## Zotero
 
 本次三篇相关 arXiv 论文已写入本机 Zotero 的“大模型智能体”目录（collection key `R98SV4VW`），并附加了公开 PDF。条目键和附件校验记录见每日摘要与 `logs/zotero_2026-10-11.md`。
