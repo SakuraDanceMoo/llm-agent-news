@@ -18,6 +18,14 @@
 - `scripts/`：每日更新入口
 - `logs/`：运行日志与校验结果
 
+## 归档容量策略
+
+归档以 1 GiB（`1024^3` 字节）为阈值。每日任务超限时按“缓存 → 最旧原始快照 → 低重要度旧处理结果/运行日志 → 较旧每日摘要”的顺序清理；知识图谱、脚本、README、当前摘要、`MANIFEST.csv` 和 Zotero 核验日志受保护。清理记录写入 `logs/cleanup_YYYY-MM-DD.json`。手动预览：
+
+```powershell
+uv run python .\llm_agent_news\scripts\cleanup_archive.py --root .\llm_agent_news
+```
+
 ## 每日更新
 
 在 PowerShell 中运行：
