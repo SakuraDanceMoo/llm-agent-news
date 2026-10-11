@@ -27,7 +27,7 @@ Set-Location D:\AgentProject2026
 & .\llm_agent_news\scripts\run_daily_update.ps1
 ```
 
-脚本会把当天摘要写入 `news/`，把来源快照写入 `data/raw/`，并更新 `data/processed/` 与知识图谱；每条新资讯至少进入 `nodes.csv` 并与“大模型智能体”主题建立 `covers` 边，再由图谱构建器生成 `graph.svg` 和 `graph.html`。网络不可用时保留已有数据并写入日志，不伪造资讯。
+脚本会把当天摘要写入 `news/`，把来源快照写入 `data/raw/`，并更新 `data/processed/` 与知识图谱；每条新资讯至少进入 `nodes.csv` 并与“大模型智能体”主题建立 `covers` 边，文章页中的 arXiv 链接还会自动建立 `资讯→论文` 边，再由图谱构建器生成 `graph.svg` 和 `graph.html`。网络不可用时保留已有数据并写入日志，不伪造资讯。
 
 ## 自动化边界
 

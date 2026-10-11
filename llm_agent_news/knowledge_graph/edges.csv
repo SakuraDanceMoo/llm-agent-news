@@ -30,3 +30,7 @@ paper:2603.13594,paper:2606.18037,complements,curated synthesis
 org:microsoft,news:2026-10-11:1,publishes,article metadata
 org:servicenow,news:2026-10-11:2,publishes,article metadata
 org:multiverse,news:2026-10-11:3,publishes,article metadata
+news:2026-10-11:1,paper:2608.19741,links_to,first-party article page
+news:2026-10-11:2,paper:2603.13594,links_to,first-party article page
+news:2026-10-11:3,paper:2210.08726,links_to,first-party article page
+news:2026-10-11:3,paper:2606.18037,links_to,first-party article page

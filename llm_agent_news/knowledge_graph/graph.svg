@@ -65,6 +65,14 @@
 <text x="815" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">publishes</text>
 <path d="M1362,262 C815,262 815,262 268,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
 <text x="815" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">publishes</text>
+<path d="M432,90 C465,90 465,90 498,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="465" y="86" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">links_to</text>
+<path d="M432,176 C465,176 465,176 498,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="465" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">links_to</text>
+<path d="M432,262 C465,262 465,348 498,348" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="465" y="301" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">links_to</text>
+<path d="M432,262 C465,262 465,262 498,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="465" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">links_to</text>
 <a href="https://huggingface.co/blog" target="_blank"><g class="node"><title>大模型智能体 | Topic</title><rect x="38" y="60" width="164" height="60" rx="12" fill="white" stroke="#7c3aed" stroke-width="3"/><circle cx="53" cy="76" r="6" fill="#7c3aed"/><text x="65" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#7c3aed">Topic</text>
 <text x="120" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">大模型智能体</text>
 </g></a>
@@ -142,5 +150,8 @@
 <a href="https://multiversecomputing.com/" target="_blank"><g class="node"><title>Multiverse Computing | Organization</title><rect x="1198" y="232" width="164" height="60" rx="12" fill="white" stroke="#475569" stroke-width="3"/><circle cx="1213" cy="248" r="6" fill="#475569"/><text x="1225" y="252" font-family="Segoe UI,Arial" font-size="10" fill="#475569">Organization</text>
 <text x="1280" y="269" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Multiverse</text>
 <text x="1280" y="282" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Computing</text>
+</g></a>
+<a href="https://arxiv.org/abs/2210.08726" target="_blank"><g class="node"><title>arXiv:2210.08726 | Paper</title><rect x="498" y="318" width="164" height="60" rx="12" fill="white" stroke="#059669" stroke-width="3"/><circle cx="513" cy="334" r="6" fill="#059669"/><text x="525" y="338" font-family="Segoe UI,Arial" font-size="10" fill="#059669">Paper</text>
+<text x="580" y="355" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">arXiv:2210.08726</text>
 </g></a>
 </svg>

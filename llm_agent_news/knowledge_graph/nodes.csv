@@ -23,3 +23,4 @@ protocol:mcp,Protocol,Model Context Protocol,https://modelcontextprotocol.io/
 org:microsoft,Organization,Microsoft,https://www.microsoft.com/
 org:servicenow,Organization,ServiceNow CoreAI,https://www.servicenow.com/
 org:multiverse,Organization,Multiverse Computing,https://multiversecomputing.com/
+paper:2210.08726,Paper,arXiv:2210.08726,https://arxiv.org/abs/2210.08726

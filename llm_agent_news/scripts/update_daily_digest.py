@@ -10,6 +10,7 @@ import argparse
 import csv
 import datetime as dt
 import json
+import re
 import ssl
 import sys
 from email.utils import parsedate_to_datetime
@@ -66,6 +67,15 @@ def update_graph(root: Path, day: str, items: list[dict[str, str]]) -> None:
         if key not in edge_keys:
             edges.append({"source": key[0], "target": key[1], "relation": key[2], "evidence": "automated first-party feed"})
             edge_keys.add(key)
+        for arxiv_id in item.get("arxiv_ids", []):
+            paper_id = f"paper:{arxiv_id}"
+            if paper_id not in node_ids:
+                nodes.append({"id": paper_id, "type": "Paper", "label": f"arXiv:{arxiv_id}", "source": f"https://arxiv.org/abs/{arxiv_id}"})
+                node_ids.add(paper_id)
+            paper_edge = (news_id, paper_id, "links_to")
+            if paper_edge not in edge_keys:
+                edges.append({"source": news_id, "target": paper_id, "relation": "links_to", "evidence": "first-party article page"})
+                edge_keys.add(paper_edge)
     with nodes_path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=["id", "type", "label", "source"])
         writer.writeheader(); writer.writerows(nodes)
@@ -102,6 +112,12 @@ def main() -> int:
 
         items.sort(key=sort_key, reverse=True)
         selected = items[:3]
+        for item in selected:
+            try:
+                article = fetch(item["link"]).decode("utf-8", "ignore")
+                item["arxiv_ids"] = sorted(set(re.findall(r"arxiv\.org/(?:abs|pdf)/([0-9]{4}\.[0-9]{4,5}(?:v[0-9]+)?)", article, flags=re.I)))
+            except Exception:
+                item["arxiv_ids"] = []
         update_graph(root, day, selected)
         out = {"date": day, "timezone": "Asia/Hong_Kong", "source": FEED_URL, "items": selected}
         (root / "data" / "processed").mkdir(parents=True, exist_ok=True)
