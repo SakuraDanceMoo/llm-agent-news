@@ -1,0 +1,11 @@
+{
+  "structure_and_raw_hash_checks_passed": true,
+  "stage_count": 0,
+  "ready_to_publish": false,
+  "stages": [],
+  "raw_checks": [],
+  "git": {
+    "snapshot_unavailable": "Selected project is not its own Git root; do not publish its parent workspace"
+  },
+  "note": "Directory readiness is separate from experiment completion; planned deliverables may be absent."
+}
