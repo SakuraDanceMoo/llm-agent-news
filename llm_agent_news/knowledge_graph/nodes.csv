@@ -1,0 +1,15 @@
+id,type,label,source
+news:2026-10-11:1,News,ThinkingBox blog article,https://huggingface.co/blog/microsoft/thinkingbox
+news:2026-10-11:2,News,AutoSynthData blog article,https://huggingface.co/blog/ServiceNow-AI/autosynthdata
+news:2026-10-11:3,News,ProvenanceGuard blog article,https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source
+paper:2608.19741,Paper,One Success Isn't Reliability: Thinkingbox,https://arxiv.org/abs/2608.19741
+paper:2603.13594,Paper,EnterpriseOps-Gym,https://arxiv.org/abs/2603.13594
+paper:2606.18037,Paper,ProvenanceGuard,https://arxiv.org/abs/2606.18037
+benchmark:thinkingbox,Benchmark,ThinkingBox-bench,https://huggingface.co/datasets/microsoft/ThinkingBox-Bench
+benchmark:enterpriseops,Dataset,EnterpriseOps-Gym,https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym
+concept:stateful_eval,Concept,有状态终端结果评测,
+concept:failure_curriculum,Concept,失败驱动任务课程,
+concept:source_provenance,Concept,MCP 来源级事实性,
+org:microsoft,Organization,Microsoft,https://www.microsoft.com/
+org:servicenow,Organization,ServiceNow CoreAI,https://www.servicenow.com/
+org:multiverse,Organization,Multiverse Computing,https://multiversecomputing.com/

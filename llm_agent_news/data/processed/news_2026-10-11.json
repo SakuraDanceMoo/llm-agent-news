@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-11",
+  "timezone": "Asia/Hong_Kong",
+  "source": "Hugging Face Blog RSS and first-party article pages",
+  "ranking_method": "recency + agent relevance + practical/research impact; human-readable evidence labels",
+  "items": [
+    {
+      "rank": 1,
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "publisher": "Microsoft / Hugging Face",
+      "published": "2026-10-03",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "paper": {
+        "title": "One Success Isn't Reliability: Thinkingbox, a Sandbox and Benchmark for Agents in Stateful Business Workflows",
+        "arxiv": "2608.19741",
+        "url": "https://arxiv.org/abs/2608.19741",
+        "zotero_item_key": "6DE2HBUU",
+        "zotero_attachment_key": "W7VVDILG",
+        "zotero_md5": "5A780FBE688066D014DAD21A513AA372",
+        "zotero_bytes": 3856379
+      },
+      "facts": [
+        "ThinkingBox evaluates terminal backend state and side effects, rather than treating a plausible answer or valid tool call as task completion.",
+        "The blog reports 507 stateful business workflows and repeated trials, with a large gap between pass@1 and pass^20 reliability."
+      ],
+      "inference": "对需要可重复完成业务状态转移的智能体，单次成功率会高估部署可靠性。",
+      "recommendation": "将最终状态检查、重复试验和副作用审计纳入 agent 评测基线。",
+      "evidence_level": "一手来源；数字以论文摘要和原文为准"
+    },
+    {
+      "rank": 2,
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "publisher": "ServiceNow CoreAI / Hugging Face",
+      "published": "2026-10-02",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "paper": {
+        "title": "EnterpriseOps-Gym: Environments and Evaluations for Stateful Agentic Planning and Tool Use in Enterprise Settings",
+        "arxiv": "2603.13594",
+        "url": "https://arxiv.org/abs/2603.13594",
+        "zotero_item_key": "77AKA26X",
+        "zotero_attachment_key": "YYF8YDYA",
+        "zotero_md5": "5F7C7B656948BF0CDFDBEB69B468B642",
+        "zotero_bytes": 5330988
+      },
+      "facts": [
+        "AutoSynthData uses target-model failures and stronger-teacher successes to generate and validate a curriculum of enterprise tasks.",
+        "The linked EnterpriseOps-Gym paper describes 1,150 tasks, 512 tools and 164 database tables; its abstract reports only 37.4% success for the best evaluated model."
+      ],
+      "inference": "企业 agent 的训练数据需要围绕真实工具、持久状态和可执行验证器构造，而不是只扩充自然语言指令。",
+      "recommendation": "优先建立失败驱动的任务生成与样本级/批次级验证闭环。",
+      "evidence_level": "一手来源；实验数字来自 arXiv 摘要"
+    },
+    {
+      "rank": 3,
+      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "publisher": "Multiverse Computing / Hugging Face",
+      "published": "2026-09-29",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "paper": {
+        "title": "ProvenanceGuard: Source-Aware Factuality Verification for MCP-Based LLM Agents",
+        "arxiv": "2606.18037",
+        "url": "https://arxiv.org/abs/2606.18037",
+        "zotero_item_key": "RJURFLVJ",
+        "zotero_attachment_key": "A39EPZS5",
+        "zotero_md5": "2771FF7BDBD752016610972FD1E8DB78",
+        "zotero_bytes": 482294
+      },
+      "facts": [
+        "ProvenanceGuard preserves MCP tool/source identity, checks claim support against the named source, and can block or repair answers.",
+        "The abstract reports block F1 0.802 and source accuracy 0.858 on a held-out split, while exact source-plus-relation accuracy remains difficult on close sources."
+      ],
+      "inference": "MCP agent 的事实性应同时评价‘是否有证据’和‘是否归因于正确来源’。",
+      "recommendation": "在 trace 中保留稳定的 tool ID/source ID，并把 claim-to-source 映射作为独立评测维度。",
+      "evidence_level": "一手来源；指标来自 arXiv 摘要"
+    }
+  ]
+}

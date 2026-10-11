@@ -1,0 +1,15 @@
+source,target,relation,evidence
+news:2026-10-11:1,paper:2608.19741,describes,first-party blog and arXiv abstract
+paper:2608.19741,benchmark:thinkingbox,introduces,arXiv abstract
+paper:2608.19741,concept:stateful_eval,operationalizes,arXiv abstract
+news:2026-10-11:2,paper:2603.13594,describes,first-party blog and arXiv abstract
+paper:2603.13594,benchmark:enterpriseops,defines,arXiv abstract
+paper:2603.13594,concept:failure_curriculum,inspires,first-party blog
+news:2026-10-11:3,paper:2606.18037,describes,first-party blog and arXiv abstract
+paper:2606.18037,concept:source_provenance,defines,arXiv abstract
+news:2026-10-11:1,concept:stateful_eval,highlights,first-party blog
+news:2026-10-11:2,concept:failure_curriculum,highlights,first-party blog
+news:2026-10-11:3,concept:source_provenance,highlights,first-party blog
+org:microsoft,paper:2608.19741,authors_or_releases,article metadata
+org:servicenow,paper:2603.13594,authors_or_releases,article metadata
+org:multiverse,paper:2606.18037,authors_or_releases,article metadata

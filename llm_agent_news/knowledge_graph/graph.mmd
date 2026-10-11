@@ -1,0 +1,12 @@
+flowchart LR
+  N1[ThinkingBox资讯] -->|关联论文| P1[ThinkingBox论文]
+  P1 -->|提出| B1[ThinkingBox-bench]
+  P1 -->|实现| C1[有状态终端结果评测]
+  N2[AutoSynthData资讯] -->|关联论文| P2[EnterpriseOps-Gym论文]
+  P2 -->|定义| B2[EnterpriseOps-Gym]
+  P2 -->|支持| C2[失败驱动任务课程]
+  N3[ProvenanceGuard资讯] -->|关联论文| P3[ProvenanceGuard论文]
+  P3 -->|定义| C3[MCP来源级事实性]
+  Org1[Microsoft] -->|发布/参与| P1
+  Org2[ServiceNow CoreAI] -->|发布/参与| P2
+  Org3[Multiverse Computing] -->|发布/参与| P3
