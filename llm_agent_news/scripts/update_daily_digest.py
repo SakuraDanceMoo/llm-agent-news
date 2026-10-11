@@ -7,9 +7,9 @@ when the source cannot be reached.
 from __future__ import annotations
 
 import argparse
+import csv
 import datetime as dt
 import json
-import re
 import ssl
 import sys
 from email.utils import parsedate_to_datetime
@@ -46,6 +46,34 @@ def parse_items(raw: bytes) -> list[dict[str, str]]:
     return items
 
 
+def update_graph(root: Path, day: str, items: list[dict[str, str]]) -> None:
+    """Append feed-derived news nodes and topic edges without overwriting curation."""
+    graph = root / "knowledge_graph"
+    nodes_path, edges_path = graph / "nodes.csv", graph / "edges.csv"
+    nodes = list(csv.DictReader(nodes_path.open(encoding="utf-8-sig")))
+    edges = list(csv.DictReader(edges_path.open(encoding="utf-8-sig")))
+    node_ids = {row["id"] for row in nodes}
+    edge_keys = {(row["source"], row["target"], row["relation"]) for row in edges}
+    if "topic:llm_agents" not in node_ids:
+        nodes.append({"id": "topic:llm_agents", "type": "Topic", "label": "大模型智能体", "source": "https://huggingface.co/blog"})
+        node_ids.add("topic:llm_agents")
+    for index, item in enumerate(items, start=1):
+        news_id = f"news:{day}:{index}"
+        if news_id not in node_ids:
+            nodes.append({"id": news_id, "type": "News", "label": item["title"], "source": item["link"]})
+            node_ids.add(news_id)
+        key = ("topic:llm_agents", news_id, "covers")
+        if key not in edge_keys:
+            edges.append({"source": key[0], "target": key[1], "relation": key[2], "evidence": "automated first-party feed"})
+            edge_keys.add(key)
+    with nodes_path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["id", "type", "label", "source"])
+        writer.writeheader(); writer.writerows(nodes)
+    with edges_path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["source", "target", "relation", "evidence"])
+        writer.writeheader(); writer.writerows(edges)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, required=True)
@@ -74,6 +102,7 @@ def main() -> int:
 
         items.sort(key=sort_key, reverse=True)
         selected = items[:3]
+        update_graph(root, day, selected)
         out = {"date": day, "timezone": "Asia/Hong_Kong", "source": FEED_URL, "items": selected}
         (root / "data" / "processed").mkdir(parents=True, exist_ok=True)
         (root / "data" / "processed" / f"feed_{day}.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")

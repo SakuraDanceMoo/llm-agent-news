@@ -1,12 +1,26 @@
 flowchart LR
-  N1[ThinkingBox资讯] -->|关联论文| P1[ThinkingBox论文]
-  P1 -->|提出| B1[ThinkingBox-bench]
-  P1 -->|实现| C1[有状态终端结果评测]
-  N2[AutoSynthData资讯] -->|关联论文| P2[EnterpriseOps-Gym论文]
-  P2 -->|定义| B2[EnterpriseOps-Gym]
-  P2 -->|支持| C2[失败驱动任务课程]
-  N3[ProvenanceGuard资讯] -->|关联论文| P3[ProvenanceGuard论文]
-  P3 -->|定义| C3[MCP来源级事实性]
-  Org1[Microsoft] -->|发布/参与| P1
-  Org2[ServiceNow CoreAI] -->|发布/参与| P2
-  Org3[Multiverse Computing] -->|发布/参与| P3
+  T[大模型智能体]
+  N1[ThinkingBox 资讯] --> P1[ThinkingBox 论文]
+  N2[AutoSynthData 资讯] --> P2[EnterpriseOps-Gym 论文]
+  N3[ProvenanceGuard 资讯] --> P3[ProvenanceGuard 论文]
+  T --> N1
+  T --> N2
+  T --> N3
+  P1 --> B1[ThinkingBox-bench]
+  P1 --> M1[终端状态与副作用验收]
+  P1 --> M2[重复运行可靠性评估]
+  P2 --> B2[EnterpriseOps-Gym]
+  P2 --> M3[失败驱动任务课程]
+  P2 --> M4[可执行任务验证器]
+  P3 --> M5[来源级事实性验证]
+  P3 --> M6[Claim-to-source 映射]
+  P3 --> MCP[Model Context Protocol]
+  M1 --> R[可靠性与可重复执行]
+  M2 --> R
+  M3 --> E[企业智能体训练与评测]
+  M4 --> E
+  M5 --> G[MCP 工具调用与来源归因]
+  M6 --> G
+  Microsoft[Microsoft] --> N1
+  ServiceNow[ServiceNow CoreAI] --> N2
+  Multiverse[Multiverse Computing] --> N3

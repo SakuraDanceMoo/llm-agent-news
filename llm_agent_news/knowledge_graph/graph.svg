@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="900" viewBox="0 0 1450 900">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="28" y="34" font-family="Segoe UI,Arial" font-size="22" font-weight="700" fill="#0f172a">大模型智能体资讯知识图谱｜信息联系图</text>
+<text x="28" y="60" font-family="Segoe UI,Arial" font-size="13" fill="#475569">节点=资讯/论文/主题/方法/基准/组织；箭头=证据支持的关系；点击节点打开来源</text>
+<path d="M202,90 C235,90 235,90 268,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="235" y="86" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">covers</text>
+<path d="M202,90 C235,90 235,176 268,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="235" y="129" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">covers</text>
+<path d="M202,90 C235,90 235,262 268,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="235" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">covers</text>
+<path d="M432,90 C465,90 465,90 498,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="465" y="86" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">describes</text>
+<path d="M432,176 C465,176 465,176 498,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="465" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">describes</text>
+<path d="M432,262 C465,262 465,262 498,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="465" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">describes</text>
+<path d="M662,90 C700,90 700,90 738,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="700" y="86" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">introduces</text>
+<path d="M662,176 C700,176 700,176 738,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="700" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">defines</text>
+<path d="M662,90 C700,90 700,90 738,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="700" y="86" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">releases</text>
+<path d="M662,176 C700,176 700,176 738,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="700" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">evaluates</text>
+<path d="M662,90 C815,90 815,90 968,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="815" y="86" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">operationalizes</text>
+<path d="M662,90 C815,90 815,176 968,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="815" y="129" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">measures</text>
+<path d="M662,176 C815,176 815,262 968,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="815" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">inspires</text>
+<path d="M662,176 C815,176 815,348 968,348" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="815" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">uses</text>
+<path d="M662,262 C815,262 815,434 968,434" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="815" y="344" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">defines</text>
+<path d="M662,262 C815,262 815,520 968,520" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="815" y="387" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">implements</text>
+<path d="M662,262 C815,262 815,90 968,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="815" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">targets</text>
+<path d="M1132,90 C585,90 585,176 38,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="585" y="129" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
+<path d="M1132,176 C585,176 585,176 38,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="585" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
+<path d="M1132,262 C585,262 585,262 38,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="585" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
+<path d="M1132,348 C585,348 585,262 38,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="585" y="301" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
+<path d="M1132,434 C585,434 585,348 38,348" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="585" y="387" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
+<path d="M1132,520 C585,520 585,348 38,348" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="585" y="430" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
+<path d="M202,176 C120,176 120,90 38,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="120" y="129" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">subtopic</text>
+<path d="M202,262 C120,262 120,90 38,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="120" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">subtopic</text>
+<path d="M202,348 C120,348 120,90 38,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="120" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">subtopic</text>
+<path d="M662,90 C580,90 580,176 498,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="580" y="129" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">complements</text>
+<path d="M662,176 C580,176 580,262 498,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="580" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">complements</text>
+<path d="M1362,90 C815,90 815,90 268,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="815" y="86" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">publishes</text>
+<path d="M1362,176 C815,176 815,176 268,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="815" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">publishes</text>
+<path d="M1362,262 C815,262 815,262 268,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
+<text x="815" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">publishes</text>
+<a href="https://huggingface.co/blog" target="_blank"><g class="node"><title>大模型智能体 | Topic</title><rect x="38" y="60" width="164" height="60" rx="12" fill="white" stroke="#7c3aed" stroke-width="3"/><circle cx="53" cy="76" r="6" fill="#7c3aed"/><text x="65" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#7c3aed">Topic</text>
+<text x="120" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">大模型智能体</text>
+</g></a>
+<a href="https://arxiv.org/abs/2608.19741" target="_blank"><g class="node"><title>可靠性与可重复执行 | Topic</title><rect x="38" y="146" width="164" height="60" rx="12" fill="white" stroke="#7c3aed" stroke-width="3"/><circle cx="53" cy="162" r="6" fill="#7c3aed"/><text x="65" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#7c3aed">Topic</text>
+<text x="120" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">可靠性与可重复执行</text>
+</g></a>
+<a href="https://arxiv.org/abs/2603.13594" target="_blank"><g class="node"><title>企业智能体训练与评测 | Topic</title><rect x="38" y="232" width="164" height="60" rx="12" fill="white" stroke="#7c3aed" stroke-width="3"/><circle cx="53" cy="248" r="6" fill="#7c3aed"/><text x="65" y="252" font-family="Segoe UI,Arial" font-size="10" fill="#7c3aed">Topic</text>
+<text x="120" y="269" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">企业智能体训练与评测</text>
+</g></a>
+<a href="https://arxiv.org/abs/2606.18037" target="_blank"><g class="node"><title>MCP 工具调用与来源归因 | Topic</title><rect x="38" y="318" width="164" height="60" rx="12" fill="white" stroke="#7c3aed" stroke-width="3"/><circle cx="53" cy="334" r="6" fill="#7c3aed"/><text x="65" y="338" font-family="Segoe UI,Arial" font-size="10" fill="#7c3aed">Topic</text>
+<text x="120" y="355" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">MCP 工具调用与来源归因</text>
+</g></a>
+<a href="https://huggingface.co/blog/microsoft/thinkingbox" target="_blank"><g class="node"><title>ThinkingBox 资讯 | News</title><rect x="268" y="60" width="164" height="60" rx="12" fill="white" stroke="#2563eb" stroke-width="3"/><circle cx="283" cy="76" r="6" fill="#2563eb"/><text x="295" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#2563eb">News</text>
+<text x="350" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ThinkingBox 资讯</text>
+</g></a>
+<a href="https://huggingface.co/blog/ServiceNow-AI/autosynthdata" target="_blank"><g class="node"><title>AutoSynthData 资讯 | News</title><rect x="268" y="146" width="164" height="60" rx="12" fill="white" stroke="#2563eb" stroke-width="3"/><circle cx="283" cy="162" r="6" fill="#2563eb"/><text x="295" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#2563eb">News</text>
+<text x="350" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">AutoSynthData 资讯</text>
+</g></a>
+<a href="https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source" target="_blank"><g class="node"><title>ProvenanceGuard 资讯 | News</title><rect x="268" y="232" width="164" height="60" rx="12" fill="white" stroke="#2563eb" stroke-width="3"/><circle cx="283" cy="248" r="6" fill="#2563eb"/><text x="295" y="252" font-family="Segoe UI,Arial" font-size="10" fill="#2563eb">News</text>
+<text x="350" y="269" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ProvenanceGuard 资讯</text>
+</g></a>
+<a href="https://arxiv.org/abs/2608.19741" target="_blank"><g class="node"><title>One Success Isn&#x27;t Reliability: ThinkingBox | Paper</title><rect x="498" y="60" width="164" height="60" rx="12" fill="white" stroke="#059669" stroke-width="3"/><circle cx="513" cy="76" r="6" fill="#059669"/><text x="525" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#059669">Paper</text>
+<text x="580" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">One Success Isn&#x27;t</text>
+<text x="580" y="110" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Reliability:</text>
+<text x="580" y="123" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ThinkingBox</text>
+</g></a>
+<a href="https://arxiv.org/abs/2603.13594" target="_blank"><g class="node"><title>EnterpriseOps-Gym | Paper</title><rect x="498" y="146" width="164" height="60" rx="12" fill="white" stroke="#059669" stroke-width="3"/><circle cx="513" cy="162" r="6" fill="#059669"/><text x="525" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#059669">Paper</text>
+<text x="580" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">EnterpriseOps-Gym</text>
+</g></a>
+<a href="https://arxiv.org/abs/2606.18037" target="_blank"><g class="node"><title>ProvenanceGuard | Paper</title><rect x="498" y="232" width="164" height="60" rx="12" fill="white" stroke="#059669" stroke-width="3"/><circle cx="513" cy="248" r="6" fill="#059669"/><text x="525" y="252" font-family="Segoe UI,Arial" font-size="10" fill="#059669">Paper</text>
+<text x="580" y="269" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ProvenanceGuard</text>
+</g></a>
+<a href="https://huggingface.co/datasets/microsoft/ThinkingBox-Bench" target="_blank"><g class="node"><title>ThinkingBox-bench | Benchmark</title><rect x="738" y="60" width="164" height="60" rx="12" fill="white" stroke="#d97706" stroke-width="3"/><circle cx="753" cy="76" r="6" fill="#d97706"/><text x="765" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#d97706">Benchmark</text>
+<text x="820" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ThinkingBox-bench</text>
+</g></a>
+<a href="https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym" target="_blank"><g class="node"><title>EnterpriseOps-Gym | Benchmark</title><rect x="738" y="146" width="164" height="60" rx="12" fill="white" stroke="#d97706" stroke-width="3"/><circle cx="753" cy="162" r="6" fill="#d97706"/><text x="765" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#d97706">Benchmark</text>
+<text x="820" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">EnterpriseOps-Gym</text>
+</g></a>
+<a href="https://arxiv.org/abs/2608.19741" target="_blank"><g class="node"><title>终端状态与副作用验收 | Method</title><rect x="968" y="60" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="76" r="6" fill="#dc2626"/><text x="995" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
+<text x="1050" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">终端状态与副作用验收</text>
+</g></a>
+<a href="https://arxiv.org/abs/2608.19741" target="_blank"><g class="node"><title>重复运行可靠性评估 | Method</title><rect x="968" y="146" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="162" r="6" fill="#dc2626"/><text x="995" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
+<text x="1050" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">重复运行可靠性评估</text>
+</g></a>
+<a href="https://huggingface.co/blog/ServiceNow-AI/autosynthdata" target="_blank"><g class="node"><title>失败驱动任务课程 | Method</title><rect x="968" y="232" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="248" r="6" fill="#dc2626"/><text x="995" y="252" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
+<text x="1050" y="269" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">失败驱动任务课程</text>
+</g></a>
+<a href="https://arxiv.org/abs/2603.13594" target="_blank"><g class="node"><title>可执行任务验证器 | Method</title><rect x="968" y="318" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="334" r="6" fill="#dc2626"/><text x="995" y="338" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
+<text x="1050" y="355" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">可执行任务验证器</text>
+</g></a>
+<a href="https://arxiv.org/abs/2606.18037" target="_blank"><g class="node"><title>来源级事实性验证 | Method</title><rect x="968" y="404" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="420" r="6" fill="#dc2626"/><text x="995" y="424" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
+<text x="1050" y="441" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">来源级事实性验证</text>
+</g></a>
+<a href="https://arxiv.org/abs/2606.18037" target="_blank"><g class="node"><title>Claim-to-source 映射 | Method</title><rect x="968" y="490" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="506" r="6" fill="#dc2626"/><text x="995" y="510" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
+<text x="1050" y="527" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Claim-to-source 映射</text>
+</g></a>
+<a href="https://huggingface.co/datasets/microsoft/ThinkingBox-Bench" target="_blank"><g class="node"><title>ThinkingBox-bench 数据集 | Dataset</title><rect x="738" y="60" width="164" height="60" rx="12" fill="white" stroke="#ea580c" stroke-width="3"/><circle cx="753" cy="76" r="6" fill="#ea580c"/><text x="765" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#ea580c">Dataset</text>
+<text x="820" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ThinkingBox-bench</text>
+<text x="820" y="110" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">数据集</text>
+</g></a>
+<a href="https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym" target="_blank"><g class="node"><title>EnterpriseOps-Gym 数据集 | Dataset</title><rect x="738" y="146" width="164" height="60" rx="12" fill="white" stroke="#ea580c" stroke-width="3"/><circle cx="753" cy="162" r="6" fill="#ea580c"/><text x="765" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#ea580c">Dataset</text>
+<text x="820" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">EnterpriseOps-Gym</text>
+<text x="820" y="196" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">数据集</text>
+</g></a>
+<a href="https://modelcontextprotocol.io/" target="_blank"><g class="node"><title>Model Context Protocol | Protocol</title><rect x="968" y="60" width="164" height="60" rx="12" fill="white" stroke="#0891b2" stroke-width="3"/><circle cx="983" cy="76" r="6" fill="#0891b2"/><text x="995" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#0891b2">Protocol</text>
+<text x="1050" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Model Context</text>
+<text x="1050" y="110" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Protocol</text>
+</g></a>
+<a href="https://www.microsoft.com/" target="_blank"><g class="node"><title>Microsoft | Organization</title><rect x="1198" y="60" width="164" height="60" rx="12" fill="white" stroke="#475569" stroke-width="3"/><circle cx="1213" cy="76" r="6" fill="#475569"/><text x="1225" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#475569">Organization</text>
+<text x="1280" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Microsoft</text>
+</g></a>
+<a href="https://www.servicenow.com/" target="_blank"><g class="node"><title>ServiceNow CoreAI | Organization</title><rect x="1198" y="146" width="164" height="60" rx="12" fill="white" stroke="#475569" stroke-width="3"/><circle cx="1213" cy="162" r="6" fill="#475569"/><text x="1225" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#475569">Organization</text>
+<text x="1280" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ServiceNow CoreAI</text>
+</g></a>
+<a href="https://multiversecomputing.com/" target="_blank"><g class="node"><title>Multiverse Computing | Organization</title><rect x="1198" y="232" width="164" height="60" rx="12" fill="white" stroke="#475569" stroke-width="3"/><circle cx="1213" cy="248" r="6" fill="#475569"/><text x="1225" y="252" font-family="Segoe UI,Arial" font-size="10" fill="#475569">Organization</text>
+<text x="1280" y="269" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Multiverse</text>
+<text x="1280" y="282" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Computing</text>
+</g></a>
+</svg>

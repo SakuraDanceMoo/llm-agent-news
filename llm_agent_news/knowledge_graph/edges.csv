@@ -1,15 +1,32 @@
 source,target,relation,evidence
+topic:llm_agents,news:2026-10-11:1,covers,first-party blog
+topic:llm_agents,news:2026-10-11:2,covers,first-party blog
+topic:llm_agents,news:2026-10-11:3,covers,first-party blog
 news:2026-10-11:1,paper:2608.19741,describes,first-party blog and arXiv abstract
-paper:2608.19741,benchmark:thinkingbox,introduces,arXiv abstract
-paper:2608.19741,concept:stateful_eval,operationalizes,arXiv abstract
 news:2026-10-11:2,paper:2603.13594,describes,first-party blog and arXiv abstract
-paper:2603.13594,benchmark:enterpriseops,defines,arXiv abstract
-paper:2603.13594,concept:failure_curriculum,inspires,first-party blog
 news:2026-10-11:3,paper:2606.18037,describes,first-party blog and arXiv abstract
-paper:2606.18037,concept:source_provenance,defines,arXiv abstract
-news:2026-10-11:1,concept:stateful_eval,highlights,first-party blog
-news:2026-10-11:2,concept:failure_curriculum,highlights,first-party blog
-news:2026-10-11:3,concept:source_provenance,highlights,first-party blog
-org:microsoft,paper:2608.19741,authors_or_releases,article metadata
-org:servicenow,paper:2603.13594,authors_or_releases,article metadata
-org:multiverse,paper:2606.18037,authors_or_releases,article metadata
+paper:2608.19741,benchmark:thinkingbox,introduces,arXiv abstract
+paper:2603.13594,benchmark:enterpriseops,defines,arXiv abstract
+paper:2608.19741,dataset:thinkingbox,releases,arXiv abstract
+paper:2603.13594,dataset:enterpriseops,evaluates,arXiv abstract
+paper:2608.19741,method:terminal_state,operationalizes,arXiv abstract
+paper:2608.19741,method:repeatability,measures,arXiv abstract
+paper:2603.13594,method:failure_curriculum,inspires,first-party blog
+paper:2603.13594,method:task_verifier,uses,arXiv abstract
+paper:2606.18037,method:source_aware,defines,arXiv abstract
+paper:2606.18037,method:claim_source,implements,arXiv abstract
+paper:2606.18037,protocol:mcp,targets,arXiv abstract
+method:terminal_state,topic:reliable_agents,supports,derived from paper claim
+method:repeatability,topic:reliable_agents,supports,derived from paper claim
+method:failure_curriculum,topic:enterprise_agents,supports,derived from article
+method:task_verifier,topic:enterprise_agents,supports,derived from paper claim
+method:source_aware,topic:mcp_grounding,supports,derived from paper claim
+method:claim_source,topic:mcp_grounding,supports,derived from paper claim
+topic:reliable_agents,topic:llm_agents,subtopic,curated synthesis
+topic:enterprise_agents,topic:llm_agents,subtopic,curated synthesis
+topic:mcp_grounding,topic:llm_agents,subtopic,curated synthesis
+paper:2608.19741,paper:2603.13594,complements,curated synthesis
+paper:2603.13594,paper:2606.18037,complements,curated synthesis
+org:microsoft,news:2026-10-11:1,publishes,article metadata
+org:servicenow,news:2026-10-11:2,publishes,article metadata
+org:multiverse,news:2026-10-11:3,publishes,article metadata

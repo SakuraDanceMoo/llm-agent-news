@@ -1,15 +1,25 @@
 id,type,label,source
-news:2026-10-11:1,News,ThinkingBox blog article,https://huggingface.co/blog/microsoft/thinkingbox
-news:2026-10-11:2,News,AutoSynthData blog article,https://huggingface.co/blog/ServiceNow-AI/autosynthdata
-news:2026-10-11:3,News,ProvenanceGuard blog article,https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source
-paper:2608.19741,Paper,One Success Isn't Reliability: Thinkingbox,https://arxiv.org/abs/2608.19741
+topic:llm_agents,Topic,大模型智能体,https://huggingface.co/blog
+topic:reliable_agents,Topic,可靠性与可重复执行,https://arxiv.org/abs/2608.19741
+topic:enterprise_agents,Topic,企业智能体训练与评测,https://arxiv.org/abs/2603.13594
+topic:mcp_grounding,Topic,MCP 工具调用与来源归因,https://arxiv.org/abs/2606.18037
+news:2026-10-11:1,News,ThinkingBox 资讯,https://huggingface.co/blog/microsoft/thinkingbox
+news:2026-10-11:2,News,AutoSynthData 资讯,https://huggingface.co/blog/ServiceNow-AI/autosynthdata
+news:2026-10-11:3,News,ProvenanceGuard 资讯,https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source
+paper:2608.19741,Paper,One Success Isn't Reliability: ThinkingBox,https://arxiv.org/abs/2608.19741
 paper:2603.13594,Paper,EnterpriseOps-Gym,https://arxiv.org/abs/2603.13594
 paper:2606.18037,Paper,ProvenanceGuard,https://arxiv.org/abs/2606.18037
 benchmark:thinkingbox,Benchmark,ThinkingBox-bench,https://huggingface.co/datasets/microsoft/ThinkingBox-Bench
-benchmark:enterpriseops,Dataset,EnterpriseOps-Gym,https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym
-concept:stateful_eval,Concept,有状态终端结果评测,
-concept:failure_curriculum,Concept,失败驱动任务课程,
-concept:source_provenance,Concept,MCP 来源级事实性,
+benchmark:enterpriseops,Benchmark,EnterpriseOps-Gym,https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym
+method:terminal_state,Method,终端状态与副作用验收,https://arxiv.org/abs/2608.19741
+method:repeatability,Method,重复运行可靠性评估,https://arxiv.org/abs/2608.19741
+method:failure_curriculum,Method,失败驱动任务课程,https://huggingface.co/blog/ServiceNow-AI/autosynthdata
+method:task_verifier,Method,可执行任务验证器,https://arxiv.org/abs/2603.13594
+method:source_aware,Method,来源级事实性验证,https://arxiv.org/abs/2606.18037
+method:claim_source,Method,Claim-to-source 映射,https://arxiv.org/abs/2606.18037
+dataset:thinkingbox,Dataset,ThinkingBox-bench 数据集,https://huggingface.co/datasets/microsoft/ThinkingBox-Bench
+dataset:enterpriseops,Dataset,EnterpriseOps-Gym 数据集,https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym
+protocol:mcp,Protocol,Model Context Protocol,https://modelcontextprotocol.io/
 org:microsoft,Organization,Microsoft,https://www.microsoft.com/
 org:servicenow,Organization,ServiceNow CoreAI,https://www.servicenow.com/
 org:multiverse,Organization,Multiverse Computing,https://multiversecomputing.com/
