@@ -20,13 +20,13 @@
 
 ## 归档容量策略
 
-归档以 1 GiB（`1024^3` 字节）为阈值。每日任务超限时按“缓存 → 最旧原始快照 → 低重要度旧处理结果/运行日志 → 较旧每日摘要”的顺序清理；知识图谱、脚本、README、当前摘要、`MANIFEST.csv` 和 Zotero 核验日志受保护。清理记录写入 `logs/cleanup_YYYY-MM-DD.json`。手动预览：
+归档以 1 GiB（`1024^3` 字节）为阈值。按需更新时若超限，按“缓存 → 最旧原始快照 → 低重要度旧处理结果/运行日志 → 较旧每日摘要”的顺序清理；知识图谱、脚本、README、当前摘要、`MANIFEST.csv` 和 Zotero 核验日志受保护。清理记录写入 `logs/cleanup_YYYY-MM-DD.json`。手动预览：
 
 ```powershell
 uv run python .\llm_agent_news\scripts\cleanup_archive.py --root .\llm_agent_news
 ```
 
-## 每日更新
+## 按需更新
 
 在 PowerShell 中运行：
 
@@ -37,11 +37,9 @@ Set-Location D:\AgentProject2026
 
 脚本会把当天摘要写入 `news/`，把来源快照写入 `data/raw/`，并更新 `data/processed/` 与知识图谱；每条新资讯至少进入 `nodes.csv` 并与“大模型智能体”主题建立 `covers` 边，文章页中的 arXiv 链接还会自动建立 `资讯→论文` 边，再由图谱构建器生成 `graph.svg` 和 `graph.html`。网络不可用时保留已有数据并写入日志，不伪造资讯。
 
-## 自动化边界
+## 调用边界
 
-当前 Codex 会话没有暴露 `automation_update` 工具，因而不能直接注册“打开 Codex 即向对话推送”的产品级自动化。`run_daily_update.ps1` 是可执行的本地入口；如需系统级每日运行，可在 Windows 任务计划程序中调用它。Codex 打开后读取 `news/latest.md` 即可获得当天前三条。
-
-已注册当前用户任务 `Codex-LLM-Agent-News`，触发器为用户登录和每天 08:00；任务会更新 `news/latest_feed.md`，不会替换带人工证据边界的每日中文摘要。
+本技能只在用户明确调用 `$agent-news-push` 或明确要求推送时运行。`run_daily_update.ps1` 是按需执行的本地入口；不会因打开 Codex、日期变化或后台任务自动推送。
 
 ## Zotero
 
