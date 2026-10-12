@@ -1,4 +1,4 @@
-# Feed candidates 2026-10-11
+# Feed candidates 2026-10-12
 
 1. [The Agent Said It Was Done. The Database Disagreed.](https://huggingface.co/blog/microsoft/thinkingbox) — Sat, 03 Oct 2026 22:56:48 GMT
 2. [AutoSynthData: Generating Training Data for Enterprise Agents](https://huggingface.co/blog/ServiceNow-AI/autosynthdata) — Fri, 02 Oct 2026 04:01:31 GMT

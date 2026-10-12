@@ -24,3 +24,6 @@ org:microsoft,Organization,Microsoft,https://www.microsoft.com/
 org:servicenow,Organization,ServiceNow CoreAI,https://www.servicenow.com/
 org:multiverse,Organization,Multiverse Computing,https://multiversecomputing.com/
 paper:2210.08726,Paper,arXiv:2210.08726,https://arxiv.org/abs/2210.08726
+news:2026-10-12:1,News,The Agent Said It Was Done. The Database Disagreed.,https://huggingface.co/blog/microsoft/thinkingbox
+news:2026-10-12:2,News,AutoSynthData: Generating Training Data for Enterprise Agents,https://huggingface.co/blog/ServiceNow-AI/autosynthdata
+news:2026-10-12:3,News,"Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source
