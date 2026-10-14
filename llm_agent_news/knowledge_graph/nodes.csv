@@ -24,3 +24,7 @@ topic:enterprise_agents,Topic,企业智能体训练与评测,https://arxiv.org/a
 topic:llm_agents,Topic,大模型智能体,https://huggingface.co/blog
 topic:mcp_grounding,Topic,MCP 工具调用与来源归因,https://arxiv.org/abs/2606.18037
 topic:reliable_agents,Topic,可靠性与可重复执行,https://arxiv.org/abs/2608.19741
+news:2026-10-14:1,News,"Run fast, private agents on-device with LFM2.5-24B-A2B",https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
+org:liquid_ai,Organization,Liquid AI,https://www.liquid.ai/
+method:on_device_moe,Method,端侧低激活参数 MoE Agent,https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
+method:agentic_rl,Method,Agentic RL 与工具轨迹训练,https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
