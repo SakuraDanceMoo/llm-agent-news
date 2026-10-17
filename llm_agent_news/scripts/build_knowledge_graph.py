@@ -48,11 +48,13 @@ def main() -> int:
         for i, node in enumerate(group):
             positions[node["id"]] = (x, 90 + i * 86)
 
+    height = max(900, max((y for _, y in positions.values()), default=90) + 70)
+
     def esc(value: str) -> str:
         return html.escape(value, quote=True)
 
     svg = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="900" viewBox="0 0 1450 900">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="{height}" viewBox="0 0 1450 {height}">',
         '<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>',
         '<rect width="100%" height="100%" fill="#f8fafc"/>',
         '<text x="28" y="34" font-family="Segoe UI,Arial" font-size="22" font-weight="700" fill="#0f172a">大模型智能体资讯知识图谱｜信息联系图</text>',
@@ -79,6 +81,16 @@ def main() -> int:
     payload = json.dumps({"nodes": nodes, "edges": edges}, ensure_ascii=False, indent=2)
     page = f'''<!doctype html><meta charset="utf-8"><title>Agent资讯推送知识图谱</title><style>body{{margin:0;background:#f8fafc;font-family:Segoe UI,Arial}}.wrap{{padding:18px}}svg{{max-width:100%;height:auto;border:1px solid #cbd5e1;border-radius:12px;background:white}}.node:hover rect{{fill:#eff6ff;stroke-width:5}}</style><div class="wrap">{svg_text}<details><summary>机器可读数据</summary><pre>{html.escape(payload)}</pre></details></div>'''
     (graph / "graph.html").write_text(page, encoding="utf-8")
+    aliases = {node["id"]: f"n{i}" for i, node in enumerate(nodes)}
+    mermaid = ["graph LR"]
+    for node in nodes:
+        label = html.escape(node["label"], quote=True).replace("\n", " ")
+        mermaid.append(f'  {aliases[node["id"]]}["{label}"]')
+    for edge in edges:
+        if edge["source"] in aliases and edge["target"] in aliases:
+            label = html.escape(edge["relation"], quote=True)
+            mermaid.append(f'  {aliases[edge["source"]]} -->|{label}| {aliases[edge["target"]]}')
+    (graph / "graph.mmd").write_text("\n".join(mermaid) + "\n", encoding="utf-8")
     print(f"built {graph / 'graph.svg'} and {graph / 'graph.html'} ({len(nodes)} nodes, {len(edges)} edges)")
     return 0
 

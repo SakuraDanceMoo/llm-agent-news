@@ -40,3 +40,23 @@ news:2026-10-14:1,method:on_device_moe,introduces,Liquid AI first-party article
 news:2026-10-14:1,method:agentic_rl,uses,Liquid AI first-party article
 method:on_device_moe,topic:llm_agents,supports,curated synthesis from agent/tool-use report
 method:agentic_rl,topic:llm_agents,supports,curated synthesis from agent training description
+topic:llm_agents,news:2026-10-17:1,covers,https://huggingface.co/blog/meta-muse-spark-open
+org:meta,news:2026-10-17:1,announces,https://huggingface.co/blog/meta-muse-spark-open
+news:2026-10-17:1,method:muse_spark_open,introduces,https://huggingface.co/blog/meta-muse-spark-open
+method:muse_spark_open,method:multimodal_agent_observation,uses,https://huggingface.co/blog/meta-muse-spark-open
+method:multimodal_agent_observation,topic:multimodal_agents,supports,https://huggingface.co/blog/meta-muse-spark-open
+topic:multimodal_agents,topic:llm_agents,subtopic,curated synthesis
+topic:llm_agents,news:2026-10-17:2,covers,https://huggingface.co/blog/reflection-beam
+org:reflection,news:2026-10-17:2,announces,https://huggingface.co/blog/reflection-beam
+news:2026-10-17:2,method:reflection_beam,introduces,https://huggingface.co/blog/reflection-beam
+method:reflection_beam,method:beam_harness,uses,https://huggingface.co/blog/reflection-beam
+method:beam_harness,topic:coding_agents,supports,https://huggingface.co/blog/reflection-beam
+topic:coding_agents,topic:llm_agents,subtopic,curated synthesis
+topic:llm_agents,news:2026-10-17:3,covers,https://huggingface.co/blog/ibm-granite/granite-switch-4-1
+org:ibm,news:2026-10-17:3,publishes,https://huggingface.co/blog/ibm-granite/granite-switch-4-1
+news:2026-10-17:3,method:granite_switch_41,introduces,https://huggingface.co/blog/ibm-granite/granite-switch-4-1
+method:granite_switch_41,method:alora_cache_reuse,uses,https://huggingface.co/blog/ibm-granite/granite-switch-4-1
+method:alora_cache_reuse,topic:enterprise_agents,supports,https://huggingface.co/blog/ibm-granite/granite-switch-4-1
+method:reflection_beam,method:on_device_moe,contrasts_with,curated synthesis: both sparse MoEs; total weight memory and deployment scale differ
+method:muse_spark_open,method:agentic_rl,complements,curated synthesis: multimodal observation and agent training are complementary research axes
+method:granite_switch_41,method:source_aware,complements,curated synthesis: safety decisions and source factuality checks cover different validation needs
