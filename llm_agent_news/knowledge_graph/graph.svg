@@ -1,273 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="1278" viewBox="0 0 1450 1278">
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
-<rect width="100%" height="100%" fill="#f8fafc"/>
-<text x="28" y="34" font-family="Segoe UI,Arial" font-size="22" font-weight="700" fill="#0f172a">大模型智能体资讯知识图谱｜信息联系图</text>
-<text x="28" y="60" font-family="Segoe UI,Arial" font-size="13" fill="#475569">节点=资讯/论文/主题/方法/基准/组织；箭头=证据支持的关系；点击节点打开来源</text>
-<path d="M202,176 C235,176 235,90 268,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="235" y="129" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">covers</text>
-<path d="M202,176 C235,176 235,176 268,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="235" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">covers</text>
-<path d="M202,176 C235,176 235,262 268,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="235" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">covers</text>
-<path d="M432,90 C465,90 465,348 498,348" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="465" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">describes</text>
-<path d="M432,176 C465,176 465,176 498,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="465" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">describes</text>
-<path d="M432,262 C465,262 465,262 498,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="465" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">describes</text>
-<path d="M662,348 C700,348 700,176 738,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="700" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">introduces</text>
-<path d="M662,176 C700,176 700,90 738,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="700" y="129" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">defines</text>
-<path d="M662,348 C700,348 700,176 738,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="700" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">releases</text>
-<path d="M662,176 C700,176 700,90 738,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="700" y="129" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">evaluates</text>
-<path d="M662,348 C815,348 815,692 968,692" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="516" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">operationalizes</text>
-<path d="M662,348 C815,348 815,434 968,434" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="387" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">measures</text>
-<path d="M662,176 C815,176 815,262 968,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">inspires</text>
-<path d="M662,176 C815,176 815,606 968,606" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="387" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">uses</text>
-<path d="M662,262 C815,262 815,520 968,520" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="387" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">defines</text>
-<path d="M662,262 C815,262 815,176 968,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">implements</text>
-<path d="M662,262 C815,262 815,90 968,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">targets</text>
-<path d="M1132,692 C585,692 585,348 38,348" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="585" y="516" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
-<path d="M1132,434 C585,434 585,348 38,348" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="585" y="387" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
-<path d="M1132,262 C585,262 585,90 38,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="585" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
-<path d="M1132,606 C585,606 585,90 38,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="585" y="344" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
-<path d="M1132,520 C585,520 585,262 38,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="585" y="387" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
-<path d="M1132,176 C585,176 585,262 38,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="585" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
-<path d="M202,348 C120,348 120,176 38,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="120" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">subtopic</text>
-<path d="M202,90 C120,90 120,176 38,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="120" y="129" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">subtopic</text>
-<path d="M202,262 C120,262 120,176 38,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="120" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">subtopic</text>
-<path d="M662,348 C580,348 580,176 498,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="580" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">complements</text>
-<path d="M662,176 C580,176 580,262 498,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="580" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">complements</text>
-<path d="M1362,176 C815,176 815,90 268,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="129" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">publishes</text>
-<path d="M1362,348 C815,348 815,176 268,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">publishes</text>
-<path d="M1362,262 C815,262 815,262 268,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">publishes</text>
-<path d="M432,90 C465,90 465,348 498,348" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="465" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">links_to</text>
-<path d="M432,176 C465,176 465,176 498,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="465" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">links_to</text>
-<path d="M432,262 C465,262 465,90 498,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="465" y="172" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">links_to</text>
-<path d="M432,262 C465,262 465,262 498,262" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="465" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">links_to</text>
-<path d="M202,176 C235,176 235,348 268,348" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="235" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">covers</text>
-<path d="M1362,90 C815,90 815,348 268,348" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">publishes</text>
-<path d="M432,348 C700,348 700,348 968,348" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="700" y="344" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">introduces</text>
-<path d="M432,348 C700,348 700,90 968,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="700" y="215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">uses</text>
-<path d="M1132,348 C585,348 585,176 38,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="585" y="258" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
-<path d="M1132,90 C585,90 585,176 38,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="585" y="129" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
-<path d="M202,176 C235,176 235,434 268,434" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="235" y="301" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">covers</text>
-<path d="M1362,434 C815,434 815,434 268,434" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="430" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">announces</text>
-<path d="M432,434 C700,434 700,778 968,778" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="700" y="602" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">introduces</text>
-<path d="M1132,778 C1050,778 1050,864 968,864" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="1050" y="817" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">uses</text>
-<path d="M1132,864 C585,864 585,434 38,434" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="585" y="645" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
-<path d="M202,434 C120,434 120,176 38,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="120" y="301" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">subtopic</text>
-<path d="M202,176 C235,176 235,520 268,520" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="235" y="344" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">covers</text>
-<path d="M1362,520 C815,520 815,520 268,520" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="516" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">announces</text>
-<path d="M432,520 C700,520 700,950 968,950" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="700" y="731" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">introduces</text>
-<path d="M1132,950 C1050,950 1050,1036 968,1036" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="1050" y="989" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">uses</text>
-<path d="M1132,1036 C585,1036 585,520 38,520" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="585" y="774" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
-<path d="M202,520 C120,520 120,176 38,176" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="120" y="344" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">subtopic</text>
-<path d="M202,176 C235,176 235,606 268,606" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="235" y="387" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">covers</text>
-<path d="M1362,606 C815,606 815,606 268,606" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="815" y="602" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">publishes</text>
-<path d="M432,606 C700,606 700,1122 968,1122" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="700" y="860" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">introduces</text>
-<path d="M1132,1122 C1050,1122 1050,1208 968,1208" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="1050" y="1161" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">uses</text>
-<path d="M1132,1208 C585,1208 585,90 38,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="585" y="645" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">supports</text>
-<path d="M1132,950 C1050,950 1050,348 968,348" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="1050" y="645" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">contrasts_with</text>
-<path d="M1132,778 C1050,778 1050,90 968,90" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="1050" y="430" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">complements</text>
-<path d="M1132,1122 C1050,1122 1050,520 968,520" fill="none" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#arrow)" opacity=".72"/>
-<text x="1050" y="817" text-anchor="middle" font-family="Segoe UI,Arial" font-size="10" fill="#475569">complements</text>
-<a href="https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym" target="_blank"><g class="node"><title>EnterpriseOps-Gym | Benchmark</title><rect x="738" y="60" width="164" height="60" rx="12" fill="white" stroke="#d97706" stroke-width="3"/><circle cx="753" cy="76" r="6" fill="#d97706"/><text x="765" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#d97706">Benchmark</text>
-<text x="820" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">EnterpriseOps-Gym</text>
-</g></a>
-<a href="https://huggingface.co/datasets/microsoft/ThinkingBox-Bench" target="_blank"><g class="node"><title>ThinkingBox-bench | Benchmark</title><rect x="738" y="146" width="164" height="60" rx="12" fill="white" stroke="#d97706" stroke-width="3"/><circle cx="753" cy="162" r="6" fill="#d97706"/><text x="765" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#d97706">Benchmark</text>
-<text x="820" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ThinkingBox-bench</text>
-</g></a>
-<a href="https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym" target="_blank"><g class="node"><title>EnterpriseOps-Gym 数据集 | Dataset</title><rect x="738" y="60" width="164" height="60" rx="12" fill="white" stroke="#ea580c" stroke-width="3"/><circle cx="753" cy="76" r="6" fill="#ea580c"/><text x="765" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#ea580c">Dataset</text>
-<text x="820" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">EnterpriseOps-Gym</text>
-<text x="820" y="110" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">数据集</text>
-</g></a>
-<a href="https://huggingface.co/datasets/microsoft/ThinkingBox-Bench" target="_blank"><g class="node"><title>ThinkingBox-bench 数据集 | Dataset</title><rect x="738" y="146" width="164" height="60" rx="12" fill="white" stroke="#ea580c" stroke-width="3"/><circle cx="753" cy="162" r="6" fill="#ea580c"/><text x="765" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#ea580c">Dataset</text>
-<text x="820" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ThinkingBox-bench</text>
-<text x="820" y="196" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">数据集</text>
-</g></a>
-<a href="https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b" target="_blank"><g class="node"><title>Agentic RL 与工具轨迹训练 | Method</title><rect x="968" y="60" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="76" r="6" fill="#dc2626"/><text x="995" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Agentic RL 与工具轨迹训练</text>
-</g></a>
-<a href="https://arxiv.org/abs/2606.18037" target="_blank"><g class="node"><title>Claim-to-source 映射 | Method</title><rect x="968" y="146" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="162" r="6" fill="#dc2626"/><text x="995" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Claim-to-source 映射</text>
-</g></a>
-<a href="https://huggingface.co/blog/ServiceNow-AI/autosynthdata" target="_blank"><g class="node"><title>失败驱动任务课程 | Method</title><rect x="968" y="232" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="248" r="6" fill="#dc2626"/><text x="995" y="252" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="269" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">失败驱动任务课程</text>
-</g></a>
-<a href="https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b" target="_blank"><g class="node"><title>端侧低激活参数 MoE Agent | Method</title><rect x="968" y="318" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="334" r="6" fill="#dc2626"/><text x="995" y="338" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="355" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">端侧低激活参数 MoE Agent</text>
-</g></a>
-<a href="https://arxiv.org/abs/2608.19741" target="_blank"><g class="node"><title>重复运行可靠性评估 | Method</title><rect x="968" y="404" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="420" r="6" fill="#dc2626"/><text x="995" y="424" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="441" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">重复运行可靠性评估</text>
-</g></a>
-<a href="https://arxiv.org/abs/2606.18037" target="_blank"><g class="node"><title>来源级事实性验证 | Method</title><rect x="968" y="490" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="506" r="6" fill="#dc2626"/><text x="995" y="510" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="527" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">来源级事实性验证</text>
-</g></a>
-<a href="https://arxiv.org/abs/2603.13594" target="_blank"><g class="node"><title>可执行任务验证器 | Method</title><rect x="968" y="576" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="592" r="6" fill="#dc2626"/><text x="995" y="596" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="613" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">可执行任务验证器</text>
-</g></a>
-<a href="https://arxiv.org/abs/2608.19741" target="_blank"><g class="node"><title>终端状态与副作用验收 | Method</title><rect x="968" y="662" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="678" r="6" fill="#dc2626"/><text x="995" y="682" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="699" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">终端状态与副作用验收</text>
-</g></a>
-<a href="https://huggingface.co/blog/microsoft/thinkingbox" target="_blank"><g class="node"><title>ThinkingBox 资讯 | News</title><rect x="268" y="60" width="164" height="60" rx="12" fill="white" stroke="#2563eb" stroke-width="3"/><circle cx="283" cy="76" r="6" fill="#2563eb"/><text x="295" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#2563eb">News</text>
-<text x="350" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ThinkingBox 资讯</text>
-</g></a>
-<a href="https://huggingface.co/blog/ServiceNow-AI/autosynthdata" target="_blank"><g class="node"><title>AutoSynthData 资讯 | News</title><rect x="268" y="146" width="164" height="60" rx="12" fill="white" stroke="#2563eb" stroke-width="3"/><circle cx="283" cy="162" r="6" fill="#2563eb"/><text x="295" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#2563eb">News</text>
-<text x="350" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">AutoSynthData 资讯</text>
-</g></a>
-<a href="https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source" target="_blank"><g class="node"><title>ProvenanceGuard 资讯 | News</title><rect x="268" y="232" width="164" height="60" rx="12" fill="white" stroke="#2563eb" stroke-width="3"/><circle cx="283" cy="248" r="6" fill="#2563eb"/><text x="295" y="252" font-family="Segoe UI,Arial" font-size="10" fill="#2563eb">News</text>
-<text x="350" y="269" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ProvenanceGuard 资讯</text>
-</g></a>
-<a href="https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b" target="_blank"><g class="node"><title>Run fast, private agents on-device with LFM2.5-24B-A2B | News</title><rect x="268" y="318" width="164" height="60" rx="12" fill="white" stroke="#2563eb" stroke-width="3"/><circle cx="283" cy="334" r="6" fill="#2563eb"/><text x="295" y="338" font-family="Segoe UI,Arial" font-size="10" fill="#2563eb">News</text>
-<text x="350" y="355" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Run fast, private</text>
-<text x="350" y="368" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">agents on-device</text>
-<text x="350" y="381" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">with</text>
-</g></a>
-<a href="https://www.liquid.ai/" target="_blank"><g class="node"><title>Liquid AI | Organization</title><rect x="1198" y="60" width="164" height="60" rx="12" fill="white" stroke="#475569" stroke-width="3"/><circle cx="1213" cy="76" r="6" fill="#475569"/><text x="1225" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#475569">Organization</text>
-<text x="1280" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Liquid AI</text>
-</g></a>
-<a href="https://www.microsoft.com/" target="_blank"><g class="node"><title>Microsoft | Organization</title><rect x="1198" y="146" width="164" height="60" rx="12" fill="white" stroke="#475569" stroke-width="3"/><circle cx="1213" cy="162" r="6" fill="#475569"/><text x="1225" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#475569">Organization</text>
-<text x="1280" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Microsoft</text>
-</g></a>
-<a href="https://multiversecomputing.com/" target="_blank"><g class="node"><title>Multiverse Computing | Organization</title><rect x="1198" y="232" width="164" height="60" rx="12" fill="white" stroke="#475569" stroke-width="3"/><circle cx="1213" cy="248" r="6" fill="#475569"/><text x="1225" y="252" font-family="Segoe UI,Arial" font-size="10" fill="#475569">Organization</text>
-<text x="1280" y="269" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Multiverse</text>
-<text x="1280" y="282" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Computing</text>
-</g></a>
-<a href="https://www.servicenow.com/" target="_blank"><g class="node"><title>ServiceNow CoreAI | Organization</title><rect x="1198" y="318" width="164" height="60" rx="12" fill="white" stroke="#475569" stroke-width="3"/><circle cx="1213" cy="334" r="6" fill="#475569"/><text x="1225" y="338" font-family="Segoe UI,Arial" font-size="10" fill="#475569">Organization</text>
-<text x="1280" y="355" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ServiceNow CoreAI</text>
-</g></a>
-<a href="https://arxiv.org/abs/2210.08726" target="_blank"><g class="node"><title>arXiv:2210.08726 | Paper</title><rect x="498" y="60" width="164" height="60" rx="12" fill="white" stroke="#059669" stroke-width="3"/><circle cx="513" cy="76" r="6" fill="#059669"/><text x="525" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#059669">Paper</text>
-<text x="580" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">arXiv:2210.08726</text>
-</g></a>
-<a href="https://arxiv.org/abs/2603.13594" target="_blank"><g class="node"><title>EnterpriseOps-Gym | Paper</title><rect x="498" y="146" width="164" height="60" rx="12" fill="white" stroke="#059669" stroke-width="3"/><circle cx="513" cy="162" r="6" fill="#059669"/><text x="525" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#059669">Paper</text>
-<text x="580" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">EnterpriseOps-Gym</text>
-</g></a>
-<a href="https://arxiv.org/abs/2606.18037" target="_blank"><g class="node"><title>ProvenanceGuard | Paper</title><rect x="498" y="232" width="164" height="60" rx="12" fill="white" stroke="#059669" stroke-width="3"/><circle cx="513" cy="248" r="6" fill="#059669"/><text x="525" y="252" font-family="Segoe UI,Arial" font-size="10" fill="#059669">Paper</text>
-<text x="580" y="269" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ProvenanceGuard</text>
-</g></a>
-<a href="https://arxiv.org/abs/2608.19741" target="_blank"><g class="node"><title>One Success Isn&#x27;t Reliability: ThinkingBox | Paper</title><rect x="498" y="318" width="164" height="60" rx="12" fill="white" stroke="#059669" stroke-width="3"/><circle cx="513" cy="334" r="6" fill="#059669"/><text x="525" y="338" font-family="Segoe UI,Arial" font-size="10" fill="#059669">Paper</text>
-<text x="580" y="355" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">One Success Isn&#x27;t</text>
-<text x="580" y="368" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Reliability:</text>
-<text x="580" y="381" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">ThinkingBox</text>
-</g></a>
-<a href="https://modelcontextprotocol.io/" target="_blank"><g class="node"><title>Model Context Protocol | Protocol</title><rect x="968" y="60" width="164" height="60" rx="12" fill="white" stroke="#0891b2" stroke-width="3"/><circle cx="983" cy="76" r="6" fill="#0891b2"/><text x="995" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#0891b2">Protocol</text>
-<text x="1050" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Model Context</text>
-<text x="1050" y="110" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Protocol</text>
-</g></a>
-<a href="https://arxiv.org/abs/2603.13594" target="_blank"><g class="node"><title>企业智能体训练与评测 | Topic</title><rect x="38" y="60" width="164" height="60" rx="12" fill="white" stroke="#7c3aed" stroke-width="3"/><circle cx="53" cy="76" r="6" fill="#7c3aed"/><text x="65" y="80" font-family="Segoe UI,Arial" font-size="10" fill="#7c3aed">Topic</text>
-<text x="120" y="97" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">企业智能体训练与评测</text>
-</g></a>
-<a href="https://huggingface.co/blog" target="_blank"><g class="node"><title>大模型智能体 | Topic</title><rect x="38" y="146" width="164" height="60" rx="12" fill="white" stroke="#7c3aed" stroke-width="3"/><circle cx="53" cy="162" r="6" fill="#7c3aed"/><text x="65" y="166" font-family="Segoe UI,Arial" font-size="10" fill="#7c3aed">Topic</text>
-<text x="120" y="183" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">大模型智能体</text>
-</g></a>
-<a href="https://arxiv.org/abs/2606.18037" target="_blank"><g class="node"><title>MCP 工具调用与来源归因 | Topic</title><rect x="38" y="232" width="164" height="60" rx="12" fill="white" stroke="#7c3aed" stroke-width="3"/><circle cx="53" cy="248" r="6" fill="#7c3aed"/><text x="65" y="252" font-family="Segoe UI,Arial" font-size="10" fill="#7c3aed">Topic</text>
-<text x="120" y="269" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">MCP 工具调用与来源归因</text>
-</g></a>
-<a href="https://arxiv.org/abs/2608.19741" target="_blank"><g class="node"><title>可靠性与可重复执行 | Topic</title><rect x="38" y="318" width="164" height="60" rx="12" fill="white" stroke="#7c3aed" stroke-width="3"/><circle cx="53" cy="334" r="6" fill="#7c3aed"/><text x="65" y="338" font-family="Segoe UI,Arial" font-size="10" fill="#7c3aed">Topic</text>
-<text x="120" y="355" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">可靠性与可重复执行</text>
-</g></a>
-<a href="https://huggingface.co/blog/meta-muse-spark-open" target="_blank"><g class="node"><title>Muse Spark Open：把截图、音视频和代码纳入同一个 Agent | News</title><rect x="268" y="404" width="164" height="60" rx="12" fill="white" stroke="#2563eb" stroke-width="3"/><circle cx="283" cy="420" r="6" fill="#2563eb"/><text x="295" y="424" font-family="Segoe UI,Arial" font-size="10" fill="#2563eb">News</text>
-<text x="350" y="441" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Muse Spark</text>
-<text x="350" y="454" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Open：把截图、音视频和代码纳入同一个</text>
-<text x="350" y="467" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Agent</text>
-</g></a>
-<a href="https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B" target="_blank"><g class="node"><title>Muse Spark Open 多模态 MoE | Method</title><rect x="968" y="748" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="764" r="6" fill="#dc2626"/><text x="995" y="768" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="785" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Muse Spark Open</text>
-<text x="1050" y="798" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">多模态 MoE</text>
-</g></a>
-<a href="https://huggingface.co/blog/meta-muse-spark-open" target="_blank"><g class="node"><title>Meta | Organization</title><rect x="1198" y="404" width="164" height="60" rx="12" fill="white" stroke="#475569" stroke-width="3"/><circle cx="1213" cy="420" r="6" fill="#475569"/><text x="1225" y="424" font-family="Segoe UI,Arial" font-size="10" fill="#475569">Organization</text>
-<text x="1280" y="441" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Meta</text>
-</g></a>
-<a href="https://huggingface.co/blog/meta-muse-spark-open" target="_blank"><g class="node"><title>多模态观察与长任务自纠错 | Method</title><rect x="968" y="834" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="850" r="6" fill="#dc2626"/><text x="995" y="854" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="871" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">多模态观察与长任务自纠错</text>
-</g></a>
-<a href="https://huggingface.co/blog/meta-muse-spark-open" target="_blank"><g class="node"><title>多模态与 GUI 智能体 | Topic</title><rect x="38" y="404" width="164" height="60" rx="12" fill="white" stroke="#7c3aed" stroke-width="3"/><circle cx="53" cy="420" r="6" fill="#7c3aed"/><text x="65" y="424" font-family="Segoe UI,Arial" font-size="10" fill="#7c3aed">Topic</text>
-<text x="120" y="441" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">多模态与 GUI 智能体</text>
-</g></a>
-<a href="https://huggingface.co/blog/reflection-beam" target="_blank"><g class="node"><title>Reflection Beam：开放长上下文编码 Agent 的模型与运行框架 | News</title><rect x="268" y="490" width="164" height="60" rx="12" fill="white" stroke="#2563eb" stroke-width="3"/><circle cx="283" cy="506" r="6" fill="#2563eb"/><text x="295" y="510" font-family="Segoe UI,Arial" font-size="10" fill="#2563eb">News</text>
-<text x="350" y="527" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Reflection</text>
-<text x="350" y="540" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Beam：开放长上下文编码</text>
-<text x="350" y="553" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Agent 的模型与运行框架</text>
-</g></a>
-<a href="https://huggingface.co/reflection/Beam-1.0-501B-A23B" target="_blank"><g class="node"><title>Beam 长上下文编码 MoE | Method</title><rect x="968" y="920" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="936" r="6" fill="#dc2626"/><text x="995" y="940" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="957" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Beam 长上下文编码 MoE</text>
-</g></a>
-<a href="https://huggingface.co/blog/reflection-beam" target="_blank"><g class="node"><title>Reflection | Organization</title><rect x="1198" y="490" width="164" height="60" rx="12" fill="white" stroke="#475569" stroke-width="3"/><circle cx="1213" cy="506" r="6" fill="#475569"/><text x="1225" y="510" font-family="Segoe UI,Arial" font-size="10" fill="#475569">Organization</text>
-<text x="1280" y="527" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Reflection</text>
-</g></a>
-<a href="https://huggingface.co/blog/reflection-beam" target="_blank"><g class="node"><title>Rust harness 与跨轮上下文管理 | Method</title><rect x="968" y="1006" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="1022" r="6" fill="#dc2626"/><text x="995" y="1026" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="1043" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Rust harness</text>
-<text x="1050" y="1056" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">与跨轮上下文管理</text>
-</g></a>
-<a href="https://huggingface.co/blog/reflection-beam" target="_blank"><g class="node"><title>编码与长程工具智能体 | Topic</title><rect x="38" y="490" width="164" height="60" rx="12" fill="white" stroke="#7c3aed" stroke-width="3"/><circle cx="53" cy="506" r="6" fill="#7c3aed"/><text x="65" y="510" font-family="Segoe UI,Arial" font-size="10" fill="#7c3aed">Topic</text>
-<text x="120" y="527" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">编码与长程工具智能体</text>
-</g></a>
-<a href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1" target="_blank"><g class="node"><title>Granite Switch 4.1：聊天、决策和语音共享一个端点 | News</title><rect x="268" y="576" width="164" height="60" rx="12" fill="white" stroke="#2563eb" stroke-width="3"/><circle cx="283" cy="592" r="6" fill="#2563eb"/><text x="295" y="596" font-family="Segoe UI,Arial" font-size="10" fill="#2563eb">News</text>
-<text x="350" y="613" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Granite Switch</text>
-<text x="350" y="626" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">4.1：聊天、决策和语音共享一个端点</text>
-</g></a>
-<a href="https://huggingface.co/ibm-granite/granite-switch-4.1-8b" target="_blank"><g class="node"><title>Granite Switch 4.1 | Method</title><rect x="968" y="1092" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="1108" r="6" fill="#dc2626"/><text x="995" y="1112" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="1129" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Granite Switch 4.1</text>
-</g></a>
-<a href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1" target="_blank"><g class="node"><title>IBM | Organization</title><rect x="1198" y="576" width="164" height="60" rx="12" fill="white" stroke="#475569" stroke-width="3"/><circle cx="1213" cy="592" r="6" fill="#475569"/><text x="1225" y="596" font-family="Segoe UI,Arial" font-size="10" fill="#475569">Organization</text>
-<text x="1280" y="613" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">IBM</text>
-</g></a>
-<a href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1" target="_blank"><g class="node"><title>Activated LoRA 与 KV cache 复用 | Method</title><rect x="968" y="1178" width="164" height="60" rx="12" fill="white" stroke="#dc2626" stroke-width="3"/><circle cx="983" cy="1194" r="6" fill="#dc2626"/><text x="995" y="1198" font-family="Segoe UI,Arial" font-size="10" fill="#dc2626">Method</text>
-<text x="1050" y="1215" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">Activated LoRA 与</text>
-<text x="1050" y="1228" text-anchor="middle" font-family="Segoe UI,Arial" font-size="11" fill="#0f172a">KV cache 复用</text>
-</g></a>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="iso-svg iso" data-theme="true" viewBox="0 0 1410 1008" role="img" aria-label="Agent 资讯可追溯知识图谱"><style>
+.iso{
+  --anatomy-page:#0b0b0b;--anatomy-card:#131313;--anatomy-text:#a3a3a3;--anatomy-strong:#e6e6e6;--anatomy-muted:#6e6e6e;
+  --anatomy-paper:#131313;--anatomy-face:#1b1b1b;--anatomy-top:#1c1c1c;
+  --anatomy-shade-0:#0f0f0f;--anatomy-shade-1:#121212;--anatomy-shade-2:#151515;--anatomy-shade-3:#181818;
+  --anatomy-lit-top:#262626;--anatomy-lit-shade:#1d1d1d;
+  --anatomy-hi:#d4d4d4;--anatomy-mid:#6a6a6a;--anatomy-lo:#3e3e3e;--anatomy-faint:#2a2a2a;--anatomy-lit:#ffffff;
+  --anatomy-halo:#050505;--anatomy-halo-opacity:.9;--anatomy-dot:#e6e6e6;
+  --anatomy-red:#ff6b6b;--anatomy-green:#6be0a0;--anatomy-blue:#6b9bff;
+  --anatomy-weight:.6px;--anatomy-ease:cubic-bezier(.32,.72,0,1);
+  --anatomy-mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --anatomy-lift:inset 0 1px 0 0 #ffffff0a,inset 0 0 0 1px #ffffff06,0 0 0 1px #00000026,0 1px 1px -.5px #00000014,0 3px 3px -1.5px #00000014,0 6px 6px -3px #00000014,0 12px 12px -6px #00000014;
+}
+.iso[data-theme="light"]{
+  --anatomy-page:#f2f2ef;--anatomy-card:#fbfbfa;--anatomy-text:#57575a;--anatomy-strong:#18181a;--anatomy-muted:#8c8c90;
+  --anatomy-paper:#fbfbfa;--anatomy-face:#ffffff;--anatomy-top:#ffffff;
+  --anatomy-shade-0:#dcdcd9;--anatomy-shade-1:#e5e5e2;--anatomy-shade-2:#ededea;--anatomy-shade-3:#f4f4f1;
+  --anatomy-lit-top:#ffffff;--anatomy-lit-shade:#eeeeeb;
+  --anatomy-hi:#26262a;--anatomy-mid:#8a8a8f;--anatomy-lo:#b4b4b8;--anatomy-faint:#d4d4d6;--anatomy-lit:#000000;
+  --anatomy-halo:#8a8a80;--anatomy-halo-opacity:.32;--anatomy-dot:#3a3a3e;
+  --anatomy-red:#e5484d;--anatomy-green:#30a46c;--anatomy-blue:#3e63dd;
+  --anatomy-lift:inset 0 1px 0 0 #ffffff,0 0 0 1px #0000000f,0 1px 1px -.5px #0000000a,0 3px 3px -1.5px #0000000a,0 6px 6px -3px #0000000a,0 12px 12px -6px #0000000a;
+}
+.iso-svg{display:block;width:100%;height:auto;overflow:visible}
+.iso-svg path,.iso-svg circle{vector-effect:non-scaling-stroke}
+.iso-fill{fill:var(--anatomy-paper);stroke:none}
+.iso-solid[data-lit]>.iso-fill{fill:var(--anatomy-face)}
+.iso-shade,.iso-top{stroke:none}
+.iso-shade[data-shade="0"]{fill:var(--anatomy-shade-0)}
+.iso-shade[data-shade="1"]{fill:var(--anatomy-shade-1)}
+.iso-shade[data-shade="2"]{fill:var(--anatomy-shade-2)}
+.iso-shade[data-shade="3"]{fill:var(--anatomy-shade-3)}
+.iso-top{fill:var(--anatomy-top)}
+.iso-solid[data-lit]>.iso-top{fill:var(--anatomy-lit-top)}
+.iso-solid[data-lit]>.iso-shade{fill:var(--anatomy-lit-shade)}
+.iso-solid[data-seamless]>.iso-shade,.iso-solid[data-seamless]>.iso-top{stroke-width:.4;stroke-linejoin:round}
+.iso-solid[data-seamless]>.iso-shade[data-shade="0"]{stroke:var(--anatomy-shade-0)}
+.iso-solid[data-seamless]>.iso-shade[data-shade="1"]{stroke:var(--anatomy-shade-1)}
+.iso-solid[data-seamless]>.iso-shade[data-shade="2"]{stroke:var(--anatomy-shade-2)}
+.iso-solid[data-seamless]>.iso-shade[data-shade="3"]{stroke:var(--anatomy-shade-3)}
+.iso-solid[data-seamless]>.iso-top{stroke:var(--anatomy-top)}
+.iso-solid[data-seamless][data-lit]>.iso-top{stroke:var(--anatomy-lit-top)}
+.iso-solid[data-seamless][data-lit]>.iso-shade{stroke:var(--anatomy-lit-shade)}
+.iso-solid[data-lit]>.iso-edge{stroke:var(--anatomy-lit)}
+.iso-halo{fill:var(--anatomy-halo);stroke:none;filter:blur(9px);opacity:var(--anatomy-halo-opacity);transform:translateY(3px)}
+.iso-line{fill:none;stroke:var(--anatomy-lo);stroke-width:var(--anatomy-weight);stroke-linecap:round;stroke-linejoin:round}
+.iso-line[data-tone="hi"]{stroke:var(--anatomy-hi)}
+.iso-line[data-tone="mid"]{stroke:var(--anatomy-mid)}
+.iso-line[data-tone="lo"]{stroke:var(--anatomy-lo)}
+.iso-line[data-tone="faint"]{stroke:var(--anatomy-faint)}
+.iso-line[data-tone="lit"]{stroke:var(--anatomy-lit)}
+.iso-line[data-tone="red"]{stroke:var(--anatomy-red)}
+.iso-line[data-tone="green"]{stroke:var(--anatomy-green)}
+.iso-line[data-tone="blue"]{stroke:var(--anatomy-blue)}
+.iso-line[data-dotted]{stroke-dasharray:.01 3.5;stroke-width:1}
+.iso-line[data-dashed]{stroke-dasharray:3 3}
+.iso-line[data-flow]{stroke-dasharray:2 6}
+.iso-wire-end{fill:var(--anatomy-paper);stroke:var(--anatomy-lo);stroke-width:var(--anatomy-weight)}
+.iso-wire[data-tone="hi"] .iso-wire-end{stroke:var(--anatomy-hi)}
+.iso-wire[data-tone="mid"] .iso-wire-end{stroke:var(--anatomy-mid)}
+.iso-wire[data-tone="faint"] .iso-wire-end{stroke:var(--anatomy-faint)}
+.iso-wire[data-tone="lit"] .iso-wire-end{stroke:var(--anatomy-lit)}
+.iso-dots circle{fill:var(--anatomy-dot);stroke:none;opacity:.32}
+.iso-dots[data-tone="hi"] circle{opacity:.85}
+.iso-dots[data-tone="mid"] circle{opacity:.45}
+.iso-dots[data-tone="lo"] circle{opacity:.22}
+.iso-dots[data-tone="faint"] circle{opacity:.12}
+.iso-face-text{fill:var(--anatomy-mid);font-family:var(--anatomy-mono);letter-spacing:.04em}
+.iso-face-text[data-tone="hi"]{fill:var(--anatomy-hi)}
+.iso-face-text[data-tone="lo"]{fill:var(--anatomy-lo)}
+.iso-face-text[data-tone="faint"]{fill:var(--anatomy-faint)}
+.tb-body{fill:var(--anatomy-shade-2);stroke:none}
+.tb-shine{fill:var(--anatomy-top);stroke:none}
+.tb-shade{fill:var(--anatomy-shade-0);stroke:none}
+.tb-ring{fill:none;stroke:var(--anatomy-lo);stroke-width:.45;stroke-linecap:butt;stroke-linejoin:round}
+.tb-ring[data-tone="mid"]{stroke:var(--anatomy-mid)}
+.tb-ring[data-tone="faint"]{stroke:var(--anatomy-faint)}
+.tb-ring[data-tone="hi"]{stroke:var(--anatomy-hi)}
+@keyframes iso-flow{to{stroke-dashoffset:-32}}
+@keyframes iso-pulse{0%,100%{opacity:.18}12%{opacity:1}40%{opacity:.18}}
+.iso-line[data-flow]{animation:iso-flow 1600ms linear infinite}
+.iso-dots circle[data-pulse]{animation:iso-pulse 1600ms steps(1,end) infinite;animation-delay:var(--pulse-at,0ms)}
+.iso-figure{margin:32px 0 36px}
+.iso-plate{position:relative;padding:52px 24px;border-radius:0;background:var(--anatomy-card);box-shadow:0 0 0 1px var(--anatomy-mid);--anatomy-paper:var(--anatomy-card)}
+.iso-plate-corners{position:absolute;inset:18px 20px;pointer-events:none}
+.iso-plate-corner{position:absolute;color:var(--anatomy-muted);font-family:var(--anatomy-mono);font-size:10.5px;line-height:1;letter-spacing:.04em;white-space:nowrap}
+.iso-plate-corner[data-corner="fig"]{top:0;left:0;color:var(--anatomy-text)}
+.iso-plate-corner[data-corner="title"]{top:0;right:0;text-transform:uppercase;letter-spacing:.1em}
+.iso-plate-corner[data-corner="hint"]{bottom:0;left:0;text-transform:uppercase;letter-spacing:.1em}
+.iso-plate-corner[data-corner="readout"]{right:0;bottom:0;color:var(--anatomy-text);font-variant-numeric:tabular-nums}
+.iso-plate .iso-svg{margin:0 auto}
+.iso-legend{display:grid;gap:8px;margin-top:12px;color:var(--anatomy-muted);font-size:13px;line-height:1.55}
+.iso-keys{display:flex;flex-wrap:wrap;gap:6px 18px}
+.iso-key{display:inline-flex;align-items:center;gap:7px}
+.iso-swatch{width:16px;height:10px;flex:none;overflow:visible}
+.iso-swatch path{fill:none;stroke:var(--anatomy-hi);stroke-width:1;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
+.iso-swatch[data-mark="raised"] path,.iso-swatch[data-mark="flat"] path{stroke:var(--anatomy-mid)}
+.iso-swatch[data-mark="lit"] path{stroke:var(--anatomy-lit)}
+.iso-swatch[data-mark="dim"] path{stroke:var(--anatomy-lo)}
+.iso-swatch[data-mark="dotted"] path{stroke-dasharray:.01 3;stroke-width:1.4}
+.iso-swatch[data-mark="dashed"] path{stroke-dasharray:3 2.5}
+.iso-swatch[data-mark="red"] path{stroke:var(--anatomy-red)}
+.iso-swatch[data-mark="green"] path{stroke:var(--anatomy-green)}
+.iso-swatch[data-mark="blue"] path{stroke:var(--anatomy-blue)}
+.iso-swatch-crease{stroke:var(--anatomy-lo)!important}
+@media (max-width:560px){.iso-plate{padding:48px 12px 70px}.iso-plate-corner[data-corner="hint"]{bottom:18px}}
+@media (prefers-reduced-motion:reduce){.iso-line[data-flow],.iso-dots circle[data-pulse]{animation:none}}
+</style><title id="title">Agent 资讯可追溯知识图谱</title><desc id="desc">来源、资讯、模型方法、论文、主题和组织的关系图；每个节点可点击打开来源。</desc><style>svg{background:#101114;font-family:system-ui,sans-serif}.title{fill:#f4f4f5;font-size:24px;font-weight:700}.subtitle{fill:#a1a1aa;font-size:13px}.edge{fill:none;stroke:#52525b;stroke-width:1.2;opacity:.65}.edge-label{fill:#71717a;font-size:9px;text-anchor:middle}.node rect{fill:#18181b;stroke-width:2}.node:hover rect,.node:focus rect{fill:#27272a;stroke-width:4}.node .type{font-size:11px}.node .label{fill:#e4e4e7;font-size:13px}</style><text x="34" y="38" class="title">Agent 资讯可追溯知识图谱｜Anatomy</text><text x="34" y="62" class="subtitle">节点可点击来源；边标签对应 CSV relation；完整证据索引见下方 HTML。</text><g class="legend" transform="translate(34,78)"><span><i style="background:#fbbf24"></i>Benchmark</span><span><i style="background:#fb923c"></i>Dataset</span><span><i style="background:#f87171"></i>Method</span><span><i style="background:#60a5fa"></i>News</span><span><i style="background:#94a3b8"></i>Organization</span><span><i style="background:#34d399"></i>Paper</span><span><i style="background:#22d3ee"></i>Protocol</span><span><i style="background:#a78bfa"></i>Topic</span></g><g><path class="edge" data-edge-id="e0" d="M430,606 C561,606 561,330 692,330"/><text class="edge-label" x="561" y="465">covers</text><path class="edge" data-edge-id="e1" d="M430,606 C692,606 692,330 954,330"/><text class="edge-label" x="692" y="465">covers</text><path class="edge" data-edge-id="e2" d="M430,606 C823,606 823,330 1216,330"/><text class="edge-label" x="823" y="465">covers</text><path class="edge" data-edge-id="e3" d="M692,330 C823,330 823,514 954,514"/><text class="edge-label" x="823" y="419">describes</text><path class="edge" data-edge-id="e4" d="M954,330 C692,330 692,514 430,514"/><text class="edge-label" x="692" y="419">describes</text><path class="edge" data-edge-id="e5" d="M1216,330 C954,330 954,514 692,514"/><text class="edge-label" x="954" y="419">describes</text><path class="edge" data-edge-id="e6" d="M954,514 C692,514 692,146 430,146"/><text class="edge-label" x="692" y="327">introduces</text><path class="edge" data-edge-id="e7" d="M430,514 C299,514 299,146 168,146"/><text class="edge-label" x="299" y="327">defines</text><path class="edge" data-edge-id="e8" d="M954,514 C954,514 954,146 954,146"/><text class="edge-label" x="954" y="327">releases</text><path class="edge" data-edge-id="e9" d="M430,514 C561,514 561,146 692,146"/><text class="edge-label" x="561" y="327">evaluates</text><path class="edge" data-edge-id="e10" d="M954,514 C692,514 692,330 430,330"/><text class="edge-label" x="692" y="419">operationalizes</text><path class="edge" data-edge-id="e11" d="M954,514 C954,514 954,238 954,238"/><text class="edge-label" x="954" y="373">measures</text><path class="edge" data-edge-id="e12" d="M430,514 C430,514 430,238 430,238"/><text class="edge-label" x="430" y="373">inspires</text><path class="edge" data-edge-id="e13" d="M430,514 C299,514 299,330 168,330"/><text class="edge-label" x="299" y="419">uses</text><path class="edge" data-edge-id="e14" d="M692,514 C954,514 954,238 1216,238"/><text class="edge-label" x="954" y="373">defines</text><path class="edge" data-edge-id="e15" d="M692,514 C430,514 430,238 168,238"/><text class="edge-label" x="430" y="373">implements</text><path class="edge" data-edge-id="e16" d="M692,514 C954,514 954,514 1216,514"/><text class="edge-label" x="954" y="511">targets</text><path class="edge" data-edge-id="e17" d="M430,330 C692,330 692,606 954,606"/><text class="edge-label" x="692" y="465">supports</text><path class="edge" data-edge-id="e18" d="M954,238 C954,238 954,606 954,606"/><text class="edge-label" x="954" y="419">supports</text><path class="edge" data-edge-id="e19" d="M430,238 C299,238 299,606 168,606"/><text class="edge-label" x="299" y="419">supports</text><path class="edge" data-edge-id="e20" d="M168,330 C168,330 168,606 168,606"/><text class="edge-label" x="168" y="465">supports</text><path class="edge" data-edge-id="e21" d="M1216,238 C954,238 954,606 692,606"/><text class="edge-label" x="954" y="419">supports</text><path class="edge" data-edge-id="e22" d="M168,238 C430,238 430,606 692,606"/><text class="edge-label" x="430" y="419">supports</text><path class="edge" data-edge-id="e23" d="M954,606 C692,606 692,606 430,606"/><text class="edge-label" x="692" y="603">subtopic</text><path class="edge" data-edge-id="e24" d="M168,606 C299,606 299,606 430,606"/><text class="edge-label" x="299" y="603">subtopic</text><path class="edge" data-edge-id="e25" d="M692,606 C561,606 561,606 430,606"/><text class="edge-label" x="561" y="603">subtopic</text><path class="edge" data-edge-id="e26" d="M954,514 C692,514 692,514 430,514"/><text class="edge-label" x="692" y="511">complements</text><path class="edge" data-edge-id="e27" d="M430,514 C561,514 561,514 692,514"/><text class="edge-label" x="561" y="511">complements</text><path class="edge" data-edge-id="e28" d="M692,422 C692,422 692,330 692,330"/><text class="edge-label" x="692" y="373">publishes</text><path class="edge" data-edge-id="e29" d="M1216,422 C1085,422 1085,330 954,330"/><text class="edge-label" x="1085" y="373">publishes</text><path class="edge" data-edge-id="e30" d="M954,422 C1085,422 1085,330 1216,330"/><text class="edge-label" x="1085" y="373">publishes</text><path class="edge" data-edge-id="e31" d="M692,330 C823,330 823,514 954,514"/><text class="edge-label" x="823" y="419">links_to</text><path class="edge" data-edge-id="e32" d="M954,330 C692,330 692,514 430,514"/><text class="edge-label" x="692" y="419">links_to</text><path class="edge" data-edge-id="e33" d="M1216,330 C692,330 692,514 168,514"/><text class="edge-label" x="692" y="419">links_to</text><path class="edge" data-edge-id="e34" d="M1216,330 C954,330 954,514 692,514"/><text class="edge-label" x="954" y="419">links_to</text><path class="edge" data-edge-id="e35" d="M430,606 C299,606 299,422 168,422"/><text class="edge-label" x="299" y="511">covers</text><path class="edge" data-edge-id="e36" d="M430,422 C299,422 299,422 168,422"/><text class="edge-label" x="299" y="419">publishes</text><path class="edge" data-edge-id="e37" d="M168,422 C430,422 430,238 692,238"/><text class="edge-label" x="430" y="327">introduces</text><path class="edge" data-edge-id="e38" d="M168,422 C692,422 692,146 1216,146"/><text class="edge-label" x="692" y="281">uses</text><path class="edge" data-edge-id="e39" d="M692,238 C561,238 561,606 430,606"/><text class="edge-label" x="561" y="419">supports</text><path class="edge" data-edge-id="e40" d="M1216,146 C823,146 823,606 430,606"/><text class="edge-label" x="823" y="373">supports</text><path class="edge" data-edge-id="e41" d="M430,606 C823,606 823,606 1216,606"/><text class="edge-label" x="823" y="603">covers</text><path class="edge" data-edge-id="e42" d="M430,698 C823,698 823,606 1216,606"/><text class="edge-label" x="823" y="649">announces</text><path class="edge" data-edge-id="e43" d="M1216,606 C692,606 692,698 168,698"/><text class="edge-label" x="692" y="649">introduces</text><path class="edge" data-edge-id="e44" d="M168,698 C430,698 430,698 692,698"/><text class="edge-label" x="430" y="695">uses</text><path class="edge" data-edge-id="e45" d="M692,698 C823,698 823,698 954,698"/><text class="edge-label" x="823" y="695">supports</text><path class="edge" data-edge-id="e46" d="M954,698 C692,698 692,606 430,606"/><text class="edge-label" x="692" y="649">subtopic</text><path class="edge" data-edge-id="e47" d="M430,606 C823,606 823,698 1216,698"/><text class="edge-label" x="823" y="649">covers</text><path class="edge" data-edge-id="e48" d="M430,790 C823,790 823,698 1216,698"/><text class="edge-label" x="823" y="741">announces</text><path class="edge" data-edge-id="e49" d="M1216,698 C692,698 692,790 168,790"/><text class="edge-label" x="692" y="741">introduces</text><path class="edge" data-edge-id="e50" d="M168,790 C430,790 430,790 692,790"/><text class="edge-label" x="430" y="787">uses</text><path class="edge" data-edge-id="e51" d="M692,790 C823,790 823,790 954,790"/><text class="edge-label" x="823" y="787">supports</text><path class="edge" data-edge-id="e52" d="M954,790 C692,790 692,606 430,606"/><text class="edge-label" x="692" y="695">subtopic</text><path class="edge" data-edge-id="e53" d="M430,606 C823,606 823,790 1216,790"/><text class="edge-label" x="823" y="695">covers</text><path class="edge" data-edge-id="e54" d="M430,882 C823,882 823,790 1216,790"/><text class="edge-label" x="823" y="833">publishes</text><path class="edge" data-edge-id="e55" d="M1216,790 C692,790 692,882 168,882"/><text class="edge-label" x="692" y="833">introduces</text><path class="edge" data-edge-id="e56" d="M168,882 C430,882 430,882 692,882"/><text class="edge-label" x="430" y="879">uses</text><path class="edge" data-edge-id="e57" d="M692,882 C430,882 430,606 168,606"/><text class="edge-label" x="430" y="741">supports</text><path class="edge" data-edge-id="e58" d="M168,790 C430,790 430,238 692,238"/><text class="edge-label" x="430" y="511">contrasts_with</text><path class="edge" data-edge-id="e59" d="M168,698 C692,698 692,146 1216,146"/><text class="edge-label" x="692" y="419">complements</text><path class="edge" data-edge-id="e60" d="M168,882 C692,882 692,238 1216,238"/><text class="edge-label" x="692" y="557">complements</text></g><g><a class="node" data-node-id="benchmark:enterpriseops" data-type="Benchmark" href="https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym" target="_blank" rel="noreferrer"><rect x="50" y="110" width="236" height="72" rx="10" stroke="#fbbf24"/><text x="64" y="131" class="type" fill="#fbbf24">Benchmark</text><text x="64" y="156" class="label">EnterpriseOps-Gym</text></a><a class="node" data-node-id="benchmark:thinkingbox" data-type="Benchmark" href="https://huggingface.co/datasets/microsoft/ThinkingBox-Bench" target="_blank" rel="noreferrer"><rect x="312" y="110" width="236" height="72" rx="10" stroke="#fbbf24"/><text x="326" y="131" class="type" fill="#fbbf24">Benchmark</text><text x="326" y="156" class="label">ThinkingBox-bench</text></a><a class="node" data-node-id="dataset:enterpriseops" data-type="Dataset" href="https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym" target="_blank" rel="noreferrer"><rect x="574" y="110" width="236" height="72" rx="10" stroke="#fb923c"/><text x="588" y="131" class="type" fill="#fb923c">Dataset</text><text x="588" y="156" class="label">EnterpriseOps-Gym 数据集</text></a><a class="node" data-node-id="dataset:thinkingbox" data-type="Dataset" href="https://huggingface.co/datasets/microsoft/ThinkingBox-Bench" target="_blank" rel="noreferrer"><rect x="836" y="110" width="236" height="72" rx="10" stroke="#fb923c"/><text x="850" y="131" class="type" fill="#fb923c">Dataset</text><text x="850" y="156" class="label">ThinkingBox-bench 数据集</text></a><a class="node" data-node-id="method:agentic_rl" data-type="Method" href="https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b" target="_blank" rel="noreferrer"><rect x="1098" y="110" width="236" height="72" rx="10" stroke="#f87171"/><text x="1112" y="131" class="type" fill="#f87171">Method</text><text x="1112" y="156" class="label">Agentic RL 与工具轨迹训练</text></a><a class="node" data-node-id="method:claim_source" data-type="Method" href="https://arxiv.org/abs/2606.18037" target="_blank" rel="noreferrer"><rect x="50" y="202" width="236" height="72" rx="10" stroke="#f87171"/><text x="64" y="223" class="type" fill="#f87171">Method</text><text x="64" y="248" class="label">Claim-to-source 映射</text></a><a class="node" data-node-id="method:failure_curriculum" data-type="Method" href="https://huggingface.co/blog/ServiceNow-AI/autosynthdata" target="_blank" rel="noreferrer"><rect x="312" y="202" width="236" height="72" rx="10" stroke="#f87171"/><text x="326" y="223" class="type" fill="#f87171">Method</text><text x="326" y="248" class="label">失败驱动任务课程</text></a><a class="node" data-node-id="method:on_device_moe" data-type="Method" href="https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b" target="_blank" rel="noreferrer"><rect x="574" y="202" width="236" height="72" rx="10" stroke="#f87171"/><text x="588" y="223" class="type" fill="#f87171">Method</text><text x="588" y="248" class="label">端侧低激活参数 MoE Agent</text></a><a class="node" data-node-id="method:repeatability" data-type="Method" href="https://arxiv.org/abs/2608.19741" target="_blank" rel="noreferrer"><rect x="836" y="202" width="236" height="72" rx="10" stroke="#f87171"/><text x="850" y="223" class="type" fill="#f87171">Method</text><text x="850" y="248" class="label">重复运行可靠性评估</text></a><a class="node" data-node-id="method:source_aware" data-type="Method" href="https://arxiv.org/abs/2606.18037" target="_blank" rel="noreferrer"><rect x="1098" y="202" width="236" height="72" rx="10" stroke="#f87171"/><text x="1112" y="223" class="type" fill="#f87171">Method</text><text x="1112" y="248" class="label">来源级事实性验证</text></a><a class="node" data-node-id="method:task_verifier" data-type="Method" href="https://arxiv.org/abs/2603.13594" target="_blank" rel="noreferrer"><rect x="50" y="294" width="236" height="72" rx="10" stroke="#f87171"/><text x="64" y="315" class="type" fill="#f87171">Method</text><text x="64" y="340" class="label">可执行任务验证器</text></a><a class="node" data-node-id="method:terminal_state" data-type="Method" href="https://arxiv.org/abs/2608.19741" target="_blank" rel="noreferrer"><rect x="312" y="294" width="236" height="72" rx="10" stroke="#f87171"/><text x="326" y="315" class="type" fill="#f87171">Method</text><text x="326" y="340" class="label">终端状态与副作用验收</text></a><a class="node" data-node-id="news:2026-10-11:1" data-type="News" href="https://huggingface.co/blog/microsoft/thinkingbox" target="_blank" rel="noreferrer"><rect x="574" y="294" width="236" height="72" rx="10" stroke="#60a5fa"/><text x="588" y="315" class="type" fill="#60a5fa">News</text><text x="588" y="340" class="label">ThinkingBox 资讯</text></a><a class="node" data-node-id="news:2026-10-11:2" data-type="News" href="https://huggingface.co/blog/ServiceNow-AI/autosynthdata" target="_blank" rel="noreferrer"><rect x="836" y="294" width="236" height="72" rx="10" stroke="#60a5fa"/><text x="850" y="315" class="type" fill="#60a5fa">News</text><text x="850" y="340" class="label">AutoSynthData 资讯</text></a><a class="node" data-node-id="news:2026-10-11:3" data-type="News" href="https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source" target="_blank" rel="noreferrer"><rect x="1098" y="294" width="236" height="72" rx="10" stroke="#60a5fa"/><text x="1112" y="315" class="type" fill="#60a5fa">News</text><text x="1112" y="340" class="label">ProvenanceGuard 资讯</text></a><a class="node" data-node-id="news:2026-10-14:1" data-type="News" href="https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b" target="_blank" rel="noreferrer"><rect x="50" y="386" width="236" height="72" rx="10" stroke="#60a5fa"/><text x="64" y="407" class="type" fill="#60a5fa">News</text><text x="64" y="432" class="label">Run fast, private agents on-…</text></a><a class="node" data-node-id="org:liquid_ai" data-type="Organization" href="https://www.liquid.ai/" target="_blank" rel="noreferrer"><rect x="312" y="386" width="236" height="72" rx="10" stroke="#94a3b8"/><text x="326" y="407" class="type" fill="#94a3b8">Organization</text><text x="326" y="432" class="label">Liquid AI</text></a><a class="node" data-node-id="org:microsoft" data-type="Organization" href="https://www.microsoft.com/" target="_blank" rel="noreferrer"><rect x="574" y="386" width="236" height="72" rx="10" stroke="#94a3b8"/><text x="588" y="407" class="type" fill="#94a3b8">Organization</text><text x="588" y="432" class="label">Microsoft</text></a><a class="node" data-node-id="org:multiverse" data-type="Organization" href="https://multiversecomputing.com/" target="_blank" rel="noreferrer"><rect x="836" y="386" width="236" height="72" rx="10" stroke="#94a3b8"/><text x="850" y="407" class="type" fill="#94a3b8">Organization</text><text x="850" y="432" class="label">Multiverse Computing</text></a><a class="node" data-node-id="org:servicenow" data-type="Organization" href="https://www.servicenow.com/" target="_blank" rel="noreferrer"><rect x="1098" y="386" width="236" height="72" rx="10" stroke="#94a3b8"/><text x="1112" y="407" class="type" fill="#94a3b8">Organization</text><text x="1112" y="432" class="label">ServiceNow CoreAI</text></a><a class="node" data-node-id="paper:2210.08726" data-type="Paper" href="https://arxiv.org/abs/2210.08726" target="_blank" rel="noreferrer"><rect x="50" y="478" width="236" height="72" rx="10" stroke="#34d399"/><text x="64" y="499" class="type" fill="#34d399">Paper</text><text x="64" y="524" class="label">arXiv:2210.08726</text></a><a class="node" data-node-id="paper:2603.13594" data-type="Paper" href="https://arxiv.org/abs/2603.13594" target="_blank" rel="noreferrer"><rect x="312" y="478" width="236" height="72" rx="10" stroke="#34d399"/><text x="326" y="499" class="type" fill="#34d399">Paper</text><text x="326" y="524" class="label">EnterpriseOps-Gym</text></a><a class="node" data-node-id="paper:2606.18037" data-type="Paper" href="https://arxiv.org/abs/2606.18037" target="_blank" rel="noreferrer"><rect x="574" y="478" width="236" height="72" rx="10" stroke="#34d399"/><text x="588" y="499" class="type" fill="#34d399">Paper</text><text x="588" y="524" class="label">ProvenanceGuard</text></a><a class="node" data-node-id="paper:2608.19741" data-type="Paper" href="https://arxiv.org/abs/2608.19741" target="_blank" rel="noreferrer"><rect x="836" y="478" width="236" height="72" rx="10" stroke="#34d399"/><text x="850" y="499" class="type" fill="#34d399">Paper</text><text x="850" y="524" class="label">One Success Isn't Reliabilit…</text></a><a class="node" data-node-id="protocol:mcp" data-type="Protocol" href="https://modelcontextprotocol.io/" target="_blank" rel="noreferrer"><rect x="1098" y="478" width="236" height="72" rx="10" stroke="#22d3ee"/><text x="1112" y="499" class="type" fill="#22d3ee">Protocol</text><text x="1112" y="524" class="label">Model Context Protocol</text></a><a class="node" data-node-id="topic:enterprise_agents" data-type="Topic" href="https://arxiv.org/abs/2603.13594" target="_blank" rel="noreferrer"><rect x="50" y="570" width="236" height="72" rx="10" stroke="#a78bfa"/><text x="64" y="591" class="type" fill="#a78bfa">Topic</text><text x="64" y="616" class="label">企业智能体训练与评测</text></a><a class="node" data-node-id="topic:llm_agents" data-type="Topic" href="https://huggingface.co/blog" target="_blank" rel="noreferrer"><rect x="312" y="570" width="236" height="72" rx="10" stroke="#a78bfa"/><text x="326" y="591" class="type" fill="#a78bfa">Topic</text><text x="326" y="616" class="label">大模型智能体</text></a><a class="node" data-node-id="topic:mcp_grounding" data-type="Topic" href="https://arxiv.org/abs/2606.18037" target="_blank" rel="noreferrer"><rect x="574" y="570" width="236" height="72" rx="10" stroke="#a78bfa"/><text x="588" y="591" class="type" fill="#a78bfa">Topic</text><text x="588" y="616" class="label">MCP 工具调用与来源归因</text></a><a class="node" data-node-id="topic:reliable_agents" data-type="Topic" href="https://arxiv.org/abs/2608.19741" target="_blank" rel="noreferrer"><rect x="836" y="570" width="236" height="72" rx="10" stroke="#a78bfa"/><text x="850" y="591" class="type" fill="#a78bfa">Topic</text><text x="850" y="616" class="label">可靠性与可重复执行</text></a><a class="node" data-node-id="news:2026-10-17:1" data-type="News" href="https://huggingface.co/blog/meta-muse-spark-open" target="_blank" rel="noreferrer"><rect x="1098" y="570" width="236" height="72" rx="10" stroke="#60a5fa"/><text x="1112" y="591" class="type" fill="#60a5fa">News</text><text x="1112" y="616" class="label">Muse Spark Open：把截图、音视频和代码纳入…</text></a><a class="node" data-node-id="method:muse_spark_open" data-type="Method" href="https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B" target="_blank" rel="noreferrer"><rect x="50" y="662" width="236" height="72" rx="10" stroke="#f87171"/><text x="64" y="683" class="type" fill="#f87171">Method</text><text x="64" y="708" class="label">Muse Spark Open 多模态 MoE</text></a><a class="node" data-node-id="org:meta" data-type="Organization" href="https://huggingface.co/blog/meta-muse-spark-open" target="_blank" rel="noreferrer"><rect x="312" y="662" width="236" height="72" rx="10" stroke="#94a3b8"/><text x="326" y="683" class="type" fill="#94a3b8">Organization</text><text x="326" y="708" class="label">Meta</text></a><a class="node" data-node-id="method:multimodal_agent_observation" data-type="Method" href="https://huggingface.co/blog/meta-muse-spark-open" target="_blank" rel="noreferrer"><rect x="574" y="662" width="236" height="72" rx="10" stroke="#f87171"/><text x="588" y="683" class="type" fill="#f87171">Method</text><text x="588" y="708" class="label">多模态观察与长任务自纠错</text></a><a class="node" data-node-id="topic:multimodal_agents" data-type="Topic" href="https://huggingface.co/blog/meta-muse-spark-open" target="_blank" rel="noreferrer"><rect x="836" y="662" width="236" height="72" rx="10" stroke="#a78bfa"/><text x="850" y="683" class="type" fill="#a78bfa">Topic</text><text x="850" y="708" class="label">多模态与 GUI 智能体</text></a><a class="node" data-node-id="news:2026-10-17:2" data-type="News" href="https://huggingface.co/blog/reflection-beam" target="_blank" rel="noreferrer"><rect x="1098" y="662" width="236" height="72" rx="10" stroke="#60a5fa"/><text x="1112" y="683" class="type" fill="#60a5fa">News</text><text x="1112" y="708" class="label">Reflection Beam：开放长上下文编码 Age…</text></a><a class="node" data-node-id="method:reflection_beam" data-type="Method" href="https://huggingface.co/reflection/Beam-1.0-501B-A23B" target="_blank" rel="noreferrer"><rect x="50" y="754" width="236" height="72" rx="10" stroke="#f87171"/><text x="64" y="775" class="type" fill="#f87171">Method</text><text x="64" y="800" class="label">Beam 长上下文编码 MoE</text></a><a class="node" data-node-id="org:reflection" data-type="Organization" href="https://huggingface.co/blog/reflection-beam" target="_blank" rel="noreferrer"><rect x="312" y="754" width="236" height="72" rx="10" stroke="#94a3b8"/><text x="326" y="775" class="type" fill="#94a3b8">Organization</text><text x="326" y="800" class="label">Reflection</text></a><a class="node" data-node-id="method:beam_harness" data-type="Method" href="https://huggingface.co/blog/reflection-beam" target="_blank" rel="noreferrer"><rect x="574" y="754" width="236" height="72" rx="10" stroke="#f87171"/><text x="588" y="775" class="type" fill="#f87171">Method</text><text x="588" y="800" class="label">Rust harness 与跨轮上下文管理</text></a><a class="node" data-node-id="topic:coding_agents" data-type="Topic" href="https://huggingface.co/blog/reflection-beam" target="_blank" rel="noreferrer"><rect x="836" y="754" width="236" height="72" rx="10" stroke="#a78bfa"/><text x="850" y="775" class="type" fill="#a78bfa">Topic</text><text x="850" y="800" class="label">编码与长程工具智能体</text></a><a class="node" data-node-id="news:2026-10-17:3" data-type="News" href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1" target="_blank" rel="noreferrer"><rect x="1098" y="754" width="236" height="72" rx="10" stroke="#60a5fa"/><text x="1112" y="775" class="type" fill="#60a5fa">News</text><text x="1112" y="800" class="label">Granite Switch 4.1：聊天、决策和语音共…</text></a><a class="node" data-node-id="method:granite_switch_41" data-type="Method" href="https://huggingface.co/ibm-granite/granite-switch-4.1-8b" target="_blank" rel="noreferrer"><rect x="50" y="846" width="236" height="72" rx="10" stroke="#f87171"/><text x="64" y="867" class="type" fill="#f87171">Method</text><text x="64" y="892" class="label">Granite Switch 4.1</text></a><a class="node" data-node-id="org:ibm" data-type="Organization" href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1" target="_blank" rel="noreferrer"><rect x="312" y="846" width="236" height="72" rx="10" stroke="#94a3b8"/><text x="326" y="867" class="type" fill="#94a3b8">Organization</text><text x="326" y="892" class="label">IBM</text></a><a class="node" data-node-id="method:alora_cache_reuse" data-type="Method" href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1" target="_blank" rel="noreferrer"><rect x="574" y="846" width="236" height="72" rx="10" stroke="#f87171"/><text x="588" y="867" class="type" fill="#f87171">Method</text><text x="588" y="892" class="label">Activated LoRA 与 KV cache 复用</text></a></g></svg>

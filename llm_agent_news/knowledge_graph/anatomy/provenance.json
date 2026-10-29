@@ -1,0 +1,567 @@
+{
+  "anatomy": {
+    "upstream": "https://github.com/wheresryan22/anatomy",
+    "commit": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
+    "kit_sha256": "6d3ecc725d30c3b0346da309cf61dfa5a65017c23620bbd4093009d4fb104018"
+  },
+  "build": {
+    "entry": "anatomy/build.mjs",
+    "build_sha256": "9c9765d797f6ffbaa4333cf858a7274bdcab3ae1f938759e7df6f33ed4bcf790",
+    "node": "v24.21.0",
+    "outputs": [
+      "../graph.svg",
+      "../graph.html"
+    ]
+  },
+  "inputs": {
+    "nodes_sha256": "e67bb6e8edee52a2628ff6ba7a4d93142122938f39dca889dc66cd8733d76bd3",
+    "edges_sha256": "170b46543f97e52a8f11b2f97a080af59bf3c57a00f5d91a4d1b23586086ed60"
+  },
+  "scope": {
+    "node_count": 43,
+    "edge_count": 61,
+    "full_index_in_html": true
+  },
+  "nodes": {
+    "benchmark:enterpriseops": {
+      "source": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
+      "type": "Benchmark"
+    },
+    "benchmark:thinkingbox": {
+      "source": "https://huggingface.co/datasets/microsoft/ThinkingBox-Bench",
+      "type": "Benchmark"
+    },
+    "dataset:enterpriseops": {
+      "source": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
+      "type": "Dataset"
+    },
+    "dataset:thinkingbox": {
+      "source": "https://huggingface.co/datasets/microsoft/ThinkingBox-Bench",
+      "type": "Dataset"
+    },
+    "method:agentic_rl": {
+      "source": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "type": "Method"
+    },
+    "method:claim_source": {
+      "source": "https://arxiv.org/abs/2606.18037",
+      "type": "Method"
+    },
+    "method:failure_curriculum": {
+      "source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "type": "Method"
+    },
+    "method:on_device_moe": {
+      "source": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "type": "Method"
+    },
+    "method:repeatability": {
+      "source": "https://arxiv.org/abs/2608.19741",
+      "type": "Method"
+    },
+    "method:source_aware": {
+      "source": "https://arxiv.org/abs/2606.18037",
+      "type": "Method"
+    },
+    "method:task_verifier": {
+      "source": "https://arxiv.org/abs/2603.13594",
+      "type": "Method"
+    },
+    "method:terminal_state": {
+      "source": "https://arxiv.org/abs/2608.19741",
+      "type": "Method"
+    },
+    "news:2026-10-11:1": {
+      "source": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "type": "News"
+    },
+    "news:2026-10-11:2": {
+      "source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "type": "News"
+    },
+    "news:2026-10-11:3": {
+      "source": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "type": "News"
+    },
+    "news:2026-10-14:1": {
+      "source": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "type": "News"
+    },
+    "org:liquid_ai": {
+      "source": "https://www.liquid.ai/",
+      "type": "Organization"
+    },
+    "org:microsoft": {
+      "source": "https://www.microsoft.com/",
+      "type": "Organization"
+    },
+    "org:multiverse": {
+      "source": "https://multiversecomputing.com/",
+      "type": "Organization"
+    },
+    "org:servicenow": {
+      "source": "https://www.servicenow.com/",
+      "type": "Organization"
+    },
+    "paper:2210.08726": {
+      "source": "https://arxiv.org/abs/2210.08726",
+      "type": "Paper"
+    },
+    "paper:2603.13594": {
+      "source": "https://arxiv.org/abs/2603.13594",
+      "type": "Paper"
+    },
+    "paper:2606.18037": {
+      "source": "https://arxiv.org/abs/2606.18037",
+      "type": "Paper"
+    },
+    "paper:2608.19741": {
+      "source": "https://arxiv.org/abs/2608.19741",
+      "type": "Paper"
+    },
+    "protocol:mcp": {
+      "source": "https://modelcontextprotocol.io/",
+      "type": "Protocol"
+    },
+    "topic:enterprise_agents": {
+      "source": "https://arxiv.org/abs/2603.13594",
+      "type": "Topic"
+    },
+    "topic:llm_agents": {
+      "source": "https://huggingface.co/blog",
+      "type": "Topic"
+    },
+    "topic:mcp_grounding": {
+      "source": "https://arxiv.org/abs/2606.18037",
+      "type": "Topic"
+    },
+    "topic:reliable_agents": {
+      "source": "https://arxiv.org/abs/2608.19741",
+      "type": "Topic"
+    },
+    "news:2026-10-17:1": {
+      "source": "https://huggingface.co/blog/meta-muse-spark-open",
+      "type": "News"
+    },
+    "method:muse_spark_open": {
+      "source": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+      "type": "Method"
+    },
+    "org:meta": {
+      "source": "https://huggingface.co/blog/meta-muse-spark-open",
+      "type": "Organization"
+    },
+    "method:multimodal_agent_observation": {
+      "source": "https://huggingface.co/blog/meta-muse-spark-open",
+      "type": "Method"
+    },
+    "topic:multimodal_agents": {
+      "source": "https://huggingface.co/blog/meta-muse-spark-open",
+      "type": "Topic"
+    },
+    "news:2026-10-17:2": {
+      "source": "https://huggingface.co/blog/reflection-beam",
+      "type": "News"
+    },
+    "method:reflection_beam": {
+      "source": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
+      "type": "Method"
+    },
+    "org:reflection": {
+      "source": "https://huggingface.co/blog/reflection-beam",
+      "type": "Organization"
+    },
+    "method:beam_harness": {
+      "source": "https://huggingface.co/blog/reflection-beam",
+      "type": "Method"
+    },
+    "topic:coding_agents": {
+      "source": "https://huggingface.co/blog/reflection-beam",
+      "type": "Topic"
+    },
+    "news:2026-10-17:3": {
+      "source": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "type": "News"
+    },
+    "method:granite_switch_41": {
+      "source": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
+      "type": "Method"
+    },
+    "org:ibm": {
+      "source": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "type": "Organization"
+    },
+    "method:alora_cache_reuse": {
+      "source": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "type": "Method"
+    }
+  },
+  "edges": [
+    {
+      "source": "topic:llm_agents",
+      "target": "news:2026-10-11:1",
+      "relation": "covers",
+      "evidence": "first-party blog"
+    },
+    {
+      "source": "topic:llm_agents",
+      "target": "news:2026-10-11:2",
+      "relation": "covers",
+      "evidence": "first-party blog"
+    },
+    {
+      "source": "topic:llm_agents",
+      "target": "news:2026-10-11:3",
+      "relation": "covers",
+      "evidence": "first-party blog"
+    },
+    {
+      "source": "news:2026-10-11:1",
+      "target": "paper:2608.19741",
+      "relation": "describes",
+      "evidence": "first-party blog and arXiv abstract"
+    },
+    {
+      "source": "news:2026-10-11:2",
+      "target": "paper:2603.13594",
+      "relation": "describes",
+      "evidence": "first-party blog and arXiv abstract"
+    },
+    {
+      "source": "news:2026-10-11:3",
+      "target": "paper:2606.18037",
+      "relation": "describes",
+      "evidence": "first-party blog and arXiv abstract"
+    },
+    {
+      "source": "paper:2608.19741",
+      "target": "benchmark:thinkingbox",
+      "relation": "introduces",
+      "evidence": "arXiv abstract"
+    },
+    {
+      "source": "paper:2603.13594",
+      "target": "benchmark:enterpriseops",
+      "relation": "defines",
+      "evidence": "arXiv abstract"
+    },
+    {
+      "source": "paper:2608.19741",
+      "target": "dataset:thinkingbox",
+      "relation": "releases",
+      "evidence": "arXiv abstract"
+    },
+    {
+      "source": "paper:2603.13594",
+      "target": "dataset:enterpriseops",
+      "relation": "evaluates",
+      "evidence": "arXiv abstract"
+    },
+    {
+      "source": "paper:2608.19741",
+      "target": "method:terminal_state",
+      "relation": "operationalizes",
+      "evidence": "arXiv abstract"
+    },
+    {
+      "source": "paper:2608.19741",
+      "target": "method:repeatability",
+      "relation": "measures",
+      "evidence": "arXiv abstract"
+    },
+    {
+      "source": "paper:2603.13594",
+      "target": "method:failure_curriculum",
+      "relation": "inspires",
+      "evidence": "first-party blog"
+    },
+    {
+      "source": "paper:2603.13594",
+      "target": "method:task_verifier",
+      "relation": "uses",
+      "evidence": "arXiv abstract"
+    },
+    {
+      "source": "paper:2606.18037",
+      "target": "method:source_aware",
+      "relation": "defines",
+      "evidence": "arXiv abstract"
+    },
+    {
+      "source": "paper:2606.18037",
+      "target": "method:claim_source",
+      "relation": "implements",
+      "evidence": "arXiv abstract"
+    },
+    {
+      "source": "paper:2606.18037",
+      "target": "protocol:mcp",
+      "relation": "targets",
+      "evidence": "arXiv abstract"
+    },
+    {
+      "source": "method:terminal_state",
+      "target": "topic:reliable_agents",
+      "relation": "supports",
+      "evidence": "derived from paper claim"
+    },
+    {
+      "source": "method:repeatability",
+      "target": "topic:reliable_agents",
+      "relation": "supports",
+      "evidence": "derived from paper claim"
+    },
+    {
+      "source": "method:failure_curriculum",
+      "target": "topic:enterprise_agents",
+      "relation": "supports",
+      "evidence": "derived from article"
+    },
+    {
+      "source": "method:task_verifier",
+      "target": "topic:enterprise_agents",
+      "relation": "supports",
+      "evidence": "derived from paper claim"
+    },
+    {
+      "source": "method:source_aware",
+      "target": "topic:mcp_grounding",
+      "relation": "supports",
+      "evidence": "derived from paper claim"
+    },
+    {
+      "source": "method:claim_source",
+      "target": "topic:mcp_grounding",
+      "relation": "supports",
+      "evidence": "derived from paper claim"
+    },
+    {
+      "source": "topic:reliable_agents",
+      "target": "topic:llm_agents",
+      "relation": "subtopic",
+      "evidence": "curated synthesis"
+    },
+    {
+      "source": "topic:enterprise_agents",
+      "target": "topic:llm_agents",
+      "relation": "subtopic",
+      "evidence": "curated synthesis"
+    },
+    {
+      "source": "topic:mcp_grounding",
+      "target": "topic:llm_agents",
+      "relation": "subtopic",
+      "evidence": "curated synthesis"
+    },
+    {
+      "source": "paper:2608.19741",
+      "target": "paper:2603.13594",
+      "relation": "complements",
+      "evidence": "curated synthesis"
+    },
+    {
+      "source": "paper:2603.13594",
+      "target": "paper:2606.18037",
+      "relation": "complements",
+      "evidence": "curated synthesis"
+    },
+    {
+      "source": "org:microsoft",
+      "target": "news:2026-10-11:1",
+      "relation": "publishes",
+      "evidence": "article metadata"
+    },
+    {
+      "source": "org:servicenow",
+      "target": "news:2026-10-11:2",
+      "relation": "publishes",
+      "evidence": "article metadata"
+    },
+    {
+      "source": "org:multiverse",
+      "target": "news:2026-10-11:3",
+      "relation": "publishes",
+      "evidence": "article metadata"
+    },
+    {
+      "source": "news:2026-10-11:1",
+      "target": "paper:2608.19741",
+      "relation": "links_to",
+      "evidence": "first-party article page"
+    },
+    {
+      "source": "news:2026-10-11:2",
+      "target": "paper:2603.13594",
+      "relation": "links_to",
+      "evidence": "first-party article page"
+    },
+    {
+      "source": "news:2026-10-11:3",
+      "target": "paper:2210.08726",
+      "relation": "links_to",
+      "evidence": "first-party article page"
+    },
+    {
+      "source": "news:2026-10-11:3",
+      "target": "paper:2606.18037",
+      "relation": "links_to",
+      "evidence": "first-party article page"
+    },
+    {
+      "source": "topic:llm_agents",
+      "target": "news:2026-10-14:1",
+      "relation": "covers",
+      "evidence": "automated first-party feed"
+    },
+    {
+      "source": "org:liquid_ai",
+      "target": "news:2026-10-14:1",
+      "relation": "publishes",
+      "evidence": "Liquid AI first-party article"
+    },
+    {
+      "source": "news:2026-10-14:1",
+      "target": "method:on_device_moe",
+      "relation": "introduces",
+      "evidence": "Liquid AI first-party article"
+    },
+    {
+      "source": "news:2026-10-14:1",
+      "target": "method:agentic_rl",
+      "relation": "uses",
+      "evidence": "Liquid AI first-party article"
+    },
+    {
+      "source": "method:on_device_moe",
+      "target": "topic:llm_agents",
+      "relation": "supports",
+      "evidence": "curated synthesis from agent/tool-use report"
+    },
+    {
+      "source": "method:agentic_rl",
+      "target": "topic:llm_agents",
+      "relation": "supports",
+      "evidence": "curated synthesis from agent training description"
+    },
+    {
+      "source": "topic:llm_agents",
+      "target": "news:2026-10-17:1",
+      "relation": "covers",
+      "evidence": "https://huggingface.co/blog/meta-muse-spark-open"
+    },
+    {
+      "source": "org:meta",
+      "target": "news:2026-10-17:1",
+      "relation": "announces",
+      "evidence": "https://huggingface.co/blog/meta-muse-spark-open"
+    },
+    {
+      "source": "news:2026-10-17:1",
+      "target": "method:muse_spark_open",
+      "relation": "introduces",
+      "evidence": "https://huggingface.co/blog/meta-muse-spark-open"
+    },
+    {
+      "source": "method:muse_spark_open",
+      "target": "method:multimodal_agent_observation",
+      "relation": "uses",
+      "evidence": "https://huggingface.co/blog/meta-muse-spark-open"
+    },
+    {
+      "source": "method:multimodal_agent_observation",
+      "target": "topic:multimodal_agents",
+      "relation": "supports",
+      "evidence": "https://huggingface.co/blog/meta-muse-spark-open"
+    },
+    {
+      "source": "topic:multimodal_agents",
+      "target": "topic:llm_agents",
+      "relation": "subtopic",
+      "evidence": "curated synthesis"
+    },
+    {
+      "source": "topic:llm_agents",
+      "target": "news:2026-10-17:2",
+      "relation": "covers",
+      "evidence": "https://huggingface.co/blog/reflection-beam"
+    },
+    {
+      "source": "org:reflection",
+      "target": "news:2026-10-17:2",
+      "relation": "announces",
+      "evidence": "https://huggingface.co/blog/reflection-beam"
+    },
+    {
+      "source": "news:2026-10-17:2",
+      "target": "method:reflection_beam",
+      "relation": "introduces",
+      "evidence": "https://huggingface.co/blog/reflection-beam"
+    },
+    {
+      "source": "method:reflection_beam",
+      "target": "method:beam_harness",
+      "relation": "uses",
+      "evidence": "https://huggingface.co/blog/reflection-beam"
+    },
+    {
+      "source": "method:beam_harness",
+      "target": "topic:coding_agents",
+      "relation": "supports",
+      "evidence": "https://huggingface.co/blog/reflection-beam"
+    },
+    {
+      "source": "topic:coding_agents",
+      "target": "topic:llm_agents",
+      "relation": "subtopic",
+      "evidence": "curated synthesis"
+    },
+    {
+      "source": "topic:llm_agents",
+      "target": "news:2026-10-17:3",
+      "relation": "covers",
+      "evidence": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+    },
+    {
+      "source": "org:ibm",
+      "target": "news:2026-10-17:3",
+      "relation": "publishes",
+      "evidence": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+    },
+    {
+      "source": "news:2026-10-17:3",
+      "target": "method:granite_switch_41",
+      "relation": "introduces",
+      "evidence": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+    },
+    {
+      "source": "method:granite_switch_41",
+      "target": "method:alora_cache_reuse",
+      "relation": "uses",
+      "evidence": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+    },
+    {
+      "source": "method:alora_cache_reuse",
+      "target": "topic:enterprise_agents",
+      "relation": "supports",
+      "evidence": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+    },
+    {
+      "source": "method:reflection_beam",
+      "target": "method:on_device_moe",
+      "relation": "contrasts_with",
+      "evidence": "curated synthesis: both sparse MoEs; total weight memory and deployment scale differ"
+    },
+    {
+      "source": "method:muse_spark_open",
+      "target": "method:agentic_rl",
+      "relation": "complements",
+      "evidence": "curated synthesis: multimodal observation and agent training are complementary research axes"
+    },
+    {
+      "source": "method:granite_switch_41",
+      "target": "method:source_aware",
+      "relation": "complements",
+      "evidence": "curated synthesis: safety decisions and source factuality checks cover different validation needs"
+    }
+  ]
+}
