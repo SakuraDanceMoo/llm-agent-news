@@ -14,12 +14,12 @@
     ]
   },
   "inputs": {
-    "nodes_sha256": "e67bb6e8edee52a2628ff6ba7a4d93142122938f39dca889dc66cd8733d76bd3",
-    "edges_sha256": "170b46543f97e52a8f11b2f97a080af59bf3c57a00f5d91a4d1b23586086ed60"
+    "nodes_sha256": "7b689a466b691aa1998d3f9540de94f39d5ee7126e1e17add381690df02d466c",
+    "edges_sha256": "ed01474fcf2539aa2c0ae350c4ee048857a49cadc443cd9fd96b8cb85cdb7266"
   },
   "scope": {
-    "node_count": 43,
-    "edge_count": 61,
+    "node_count": 52,
+    "edge_count": 78,
     "full_index_in_html": true
   },
   "nodes": {
@@ -43,6 +43,14 @@
       "source": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
       "type": "Method"
     },
+    "method:alora_cache_reuse": {
+      "source": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "type": "Method"
+    },
+    "method:beam_harness": {
+      "source": "https://huggingface.co/blog/reflection-beam",
+      "type": "Method"
+    },
     "method:claim_source": {
       "source": "https://arxiv.org/abs/2606.18037",
       "type": "Method"
@@ -51,8 +59,24 @@
       "source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "type": "Method"
     },
+    "method:granite_switch_41": {
+      "source": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
+      "type": "Method"
+    },
+    "method:multimodal_agent_observation": {
+      "source": "https://huggingface.co/blog/meta-muse-spark-open",
+      "type": "Method"
+    },
+    "method:muse_spark_open": {
+      "source": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+      "type": "Method"
+    },
     "method:on_device_moe": {
       "source": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "type": "Method"
+    },
+    "method:reflection_beam": {
+      "source": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
       "type": "Method"
     },
     "method:repeatability": {
@@ -87,8 +111,28 @@
       "source": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
       "type": "News"
     },
+    "news:2026-10-17:1": {
+      "source": "https://huggingface.co/blog/meta-muse-spark-open",
+      "type": "News"
+    },
+    "news:2026-10-17:2": {
+      "source": "https://huggingface.co/blog/reflection-beam",
+      "type": "News"
+    },
+    "news:2026-10-17:3": {
+      "source": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "type": "News"
+    },
+    "org:ibm": {
+      "source": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "type": "Organization"
+    },
     "org:liquid_ai": {
       "source": "https://www.liquid.ai/",
+      "type": "Organization"
+    },
+    "org:meta": {
+      "source": "https://huggingface.co/blog/meta-muse-spark-open",
       "type": "Organization"
     },
     "org:microsoft": {
@@ -97,6 +141,10 @@
     },
     "org:multiverse": {
       "source": "https://multiversecomputing.com/",
+      "type": "Organization"
+    },
+    "org:reflection": {
+      "source": "https://huggingface.co/blog/reflection-beam",
       "type": "Organization"
     },
     "org:servicenow": {
@@ -123,6 +171,10 @@
       "source": "https://modelcontextprotocol.io/",
       "type": "Protocol"
     },
+    "topic:coding_agents": {
+      "source": "https://huggingface.co/blog/reflection-beam",
+      "type": "Topic"
+    },
     "topic:enterprise_agents": {
       "source": "https://arxiv.org/abs/2603.13594",
       "type": "Topic"
@@ -135,65 +187,49 @@
       "source": "https://arxiv.org/abs/2606.18037",
       "type": "Topic"
     },
-    "topic:reliable_agents": {
-      "source": "https://arxiv.org/abs/2608.19741",
-      "type": "Topic"
-    },
-    "news:2026-10-17:1": {
-      "source": "https://huggingface.co/blog/meta-muse-spark-open",
-      "type": "News"
-    },
-    "method:muse_spark_open": {
-      "source": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
-      "type": "Method"
-    },
-    "org:meta": {
-      "source": "https://huggingface.co/blog/meta-muse-spark-open",
-      "type": "Organization"
-    },
-    "method:multimodal_agent_observation": {
-      "source": "https://huggingface.co/blog/meta-muse-spark-open",
-      "type": "Method"
-    },
     "topic:multimodal_agents": {
       "source": "https://huggingface.co/blog/meta-muse-spark-open",
       "type": "Topic"
     },
-    "news:2026-10-17:2": {
-      "source": "https://huggingface.co/blog/reflection-beam",
-      "type": "News"
-    },
-    "method:reflection_beam": {
-      "source": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
-      "type": "Method"
-    },
-    "org:reflection": {
-      "source": "https://huggingface.co/blog/reflection-beam",
-      "type": "Organization"
-    },
-    "method:beam_harness": {
-      "source": "https://huggingface.co/blog/reflection-beam",
-      "type": "Method"
-    },
-    "topic:coding_agents": {
-      "source": "https://huggingface.co/blog/reflection-beam",
+    "topic:reliable_agents": {
+      "source": "https://arxiv.org/abs/2608.19741",
       "type": "Topic"
     },
-    "news:2026-10-17:3": {
-      "source": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+    "news:2026-10-29:1": {
+      "source": "https://huggingface.co/blog/microsoft/thinkingbox-training",
       "type": "News"
     },
-    "method:granite_switch_41": {
-      "source": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
+    "method:executable_rl_reward": {
+      "source": "https://huggingface.co/blog/microsoft/thinkingbox-training",
       "type": "Method"
     },
-    "org:ibm": {
-      "source": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+    "news:2026-10-29:2": {
+      "source": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "type": "News"
+    },
+    "method:lfm3_specialized_backbone": {
+      "source": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "type": "Method"
+    },
+    "news:2026-10-29:3": {
+      "source": "https://huggingface.co/blog/allenai/novelty-bench",
+      "type": "News"
+    },
+    "method:novelty_judge_benchmark": {
+      "source": "https://huggingface.co/blog/allenai/novelty-bench",
+      "type": "Method"
+    },
+    "org:allenai": {
+      "source": "https://huggingface.co/blog/allenai/novelty-bench",
       "type": "Organization"
     },
-    "method:alora_cache_reuse": {
-      "source": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "type": "Method"
+    "topic:research_agents": {
+      "source": "https://huggingface.co/blog/allenai/novelty-bench",
+      "type": "Topic"
+    },
+    "paper:2610.02022": {
+      "source": "https://arxiv.org/abs/2610.02022",
+      "type": "Paper"
     }
   },
   "edges": [
@@ -562,6 +598,108 @@
       "target": "method:source_aware",
       "relation": "complements",
       "evidence": "curated synthesis: safety decisions and source factuality checks cover different validation needs"
+    },
+    {
+      "source": "topic:llm_agents",
+      "target": "news:2026-10-29:1",
+      "relation": "covers",
+      "evidence": "automated first-party feed"
+    },
+    {
+      "source": "news:2026-10-29:1",
+      "target": "paper:2608.19741",
+      "relation": "links_to",
+      "evidence": "first-party article page"
+    },
+    {
+      "source": "org:microsoft",
+      "target": "news:2026-10-29:1",
+      "relation": "announces",
+      "evidence": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+    },
+    {
+      "source": "news:2026-10-29:1",
+      "target": "method:executable_rl_reward",
+      "relation": "introduces",
+      "evidence": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+    },
+    {
+      "source": "method:executable_rl_reward",
+      "target": "topic:reliable_agents",
+      "relation": "supports",
+      "evidence": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+    },
+    {
+      "source": "news:2026-10-29:1",
+      "target": "paper:2608.19741",
+      "relation": "describes",
+      "evidence": "https://arxiv.org/abs/2608.19741"
+    },
+    {
+      "source": "topic:llm_agents",
+      "target": "news:2026-10-29:2",
+      "relation": "covers",
+      "evidence": "https://huggingface.co/blog/LiquidAI/lfm3"
+    },
+    {
+      "source": "org:liquid_ai",
+      "target": "news:2026-10-29:2",
+      "relation": "announces",
+      "evidence": "https://huggingface.co/blog/LiquidAI/lfm3"
+    },
+    {
+      "source": "news:2026-10-29:2",
+      "target": "method:lfm3_specialized_backbone",
+      "relation": "introduces",
+      "evidence": "https://huggingface.co/blog/LiquidAI/lfm3"
+    },
+    {
+      "source": "method:lfm3_specialized_backbone",
+      "target": "topic:multimodal_agents",
+      "relation": "supports",
+      "evidence": "https://huggingface.co/blog/LiquidAI/lfm3"
+    },
+    {
+      "source": "topic:llm_agents",
+      "target": "news:2026-10-29:3",
+      "relation": "covers",
+      "evidence": "https://huggingface.co/blog/allenai/novelty-bench"
+    },
+    {
+      "source": "org:allenai",
+      "target": "news:2026-10-29:3",
+      "relation": "announces",
+      "evidence": "https://huggingface.co/blog/allenai/novelty-bench"
+    },
+    {
+      "source": "news:2026-10-29:3",
+      "target": "method:novelty_judge_benchmark",
+      "relation": "introduces",
+      "evidence": "https://huggingface.co/blog/allenai/novelty-bench"
+    },
+    {
+      "source": "method:novelty_judge_benchmark",
+      "target": "topic:research_agents",
+      "relation": "supports",
+      "evidence": "https://huggingface.co/blog/allenai/novelty-bench"
+    },
+    {
+      "source": "topic:research_agents",
+      "target": "topic:llm_agents",
+      "relation": "subtopic",
+      "evidence": "curated synthesis"
+    },
+    {
+      "source": "news:2026-10-29:3",
+      "target": "paper:2610.02022",
+      "relation": "describes",
+      "evidence": "https://arxiv.org/abs/2610.02022"
+    },
+    {
+      "source": "method:executable_rl_reward",
+      "target": "method:repeatability",
+      "relation": "supports",
+      "evidence": "curated synthesis: repeatability is measured by 20/20 terminal-state outcomes"
     }
   ]
 }

@@ -4,9 +4,15 @@ benchmark:thinkingbox,Benchmark,ThinkingBox-bench,https://huggingface.co/dataset
 dataset:enterpriseops,Dataset,EnterpriseOps-Gym 数据集,https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym
 dataset:thinkingbox,Dataset,ThinkingBox-bench 数据集,https://huggingface.co/datasets/microsoft/ThinkingBox-Bench
 method:agentic_rl,Method,Agentic RL 与工具轨迹训练,https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
+method:alora_cache_reuse,Method,Activated LoRA 与 KV cache 复用,https://huggingface.co/blog/ibm-granite/granite-switch-4-1
+method:beam_harness,Method,Rust harness 与跨轮上下文管理,https://huggingface.co/blog/reflection-beam
 method:claim_source,Method,Claim-to-source 映射,https://arxiv.org/abs/2606.18037
 method:failure_curriculum,Method,失败驱动任务课程,https://huggingface.co/blog/ServiceNow-AI/autosynthdata
+method:granite_switch_41,Method,Granite Switch 4.1,https://huggingface.co/ibm-granite/granite-switch-4.1-8b
+method:multimodal_agent_observation,Method,多模态观察与长任务自纠错,https://huggingface.co/blog/meta-muse-spark-open
+method:muse_spark_open,Method,Muse Spark Open 多模态 MoE,https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B
 method:on_device_moe,Method,端侧低激活参数 MoE Agent,https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
+method:reflection_beam,Method,Beam 长上下文编码 MoE,https://huggingface.co/reflection/Beam-1.0-501B-A23B
 method:repeatability,Method,重复运行可靠性评估,https://arxiv.org/abs/2608.19741
 method:source_aware,Method,来源级事实性验证,https://arxiv.org/abs/2606.18037
 method:task_verifier,Method,可执行任务验证器,https://arxiv.org/abs/2603.13594
@@ -15,30 +21,33 @@ news:2026-10-11:1,News,ThinkingBox 资讯,https://huggingface.co/blog/microsoft/
 news:2026-10-11:2,News,AutoSynthData 资讯,https://huggingface.co/blog/ServiceNow-AI/autosynthdata
 news:2026-10-11:3,News,ProvenanceGuard 资讯,https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source
 news:2026-10-14:1,News,"Run fast, private agents on-device with LFM2.5-24B-A2B",https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
+news:2026-10-17:1,News,Muse Spark Open：把截图、音视频和代码纳入同一个 Agent,https://huggingface.co/blog/meta-muse-spark-open
+news:2026-10-17:2,News,Reflection Beam：开放长上下文编码 Agent 的模型与运行框架,https://huggingface.co/blog/reflection-beam
+news:2026-10-17:3,News,Granite Switch 4.1：聊天、决策和语音共享一个端点,https://huggingface.co/blog/ibm-granite/granite-switch-4-1
+org:ibm,Organization,IBM,https://huggingface.co/blog/ibm-granite/granite-switch-4-1
 org:liquid_ai,Organization,Liquid AI,https://www.liquid.ai/
+org:meta,Organization,Meta,https://huggingface.co/blog/meta-muse-spark-open
 org:microsoft,Organization,Microsoft,https://www.microsoft.com/
 org:multiverse,Organization,Multiverse Computing,https://multiversecomputing.com/
+org:reflection,Organization,Reflection,https://huggingface.co/blog/reflection-beam
 org:servicenow,Organization,ServiceNow CoreAI,https://www.servicenow.com/
 paper:2210.08726,Paper,arXiv:2210.08726,https://arxiv.org/abs/2210.08726
 paper:2603.13594,Paper,EnterpriseOps-Gym,https://arxiv.org/abs/2603.13594
 paper:2606.18037,Paper,ProvenanceGuard,https://arxiv.org/abs/2606.18037
 paper:2608.19741,Paper,One Success Isn't Reliability: ThinkingBox,https://arxiv.org/abs/2608.19741
 protocol:mcp,Protocol,Model Context Protocol,https://modelcontextprotocol.io/
+topic:coding_agents,Topic,编码与长程工具智能体,https://huggingface.co/blog/reflection-beam
 topic:enterprise_agents,Topic,企业智能体训练与评测,https://arxiv.org/abs/2603.13594
 topic:llm_agents,Topic,大模型智能体,https://huggingface.co/blog
 topic:mcp_grounding,Topic,MCP 工具调用与来源归因,https://arxiv.org/abs/2606.18037
-topic:reliable_agents,Topic,可靠性与可重复执行,https://arxiv.org/abs/2608.19741
-news:2026-10-17:1,News,Muse Spark Open：把截图、音视频和代码纳入同一个 Agent,https://huggingface.co/blog/meta-muse-spark-open
-method:muse_spark_open,Method,Muse Spark Open 多模态 MoE,https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B
-org:meta,Organization,Meta,https://huggingface.co/blog/meta-muse-spark-open
-method:multimodal_agent_observation,Method,多模态观察与长任务自纠错,https://huggingface.co/blog/meta-muse-spark-open
 topic:multimodal_agents,Topic,多模态与 GUI 智能体,https://huggingface.co/blog/meta-muse-spark-open
-news:2026-10-17:2,News,Reflection Beam：开放长上下文编码 Agent 的模型与运行框架,https://huggingface.co/blog/reflection-beam
-method:reflection_beam,Method,Beam 长上下文编码 MoE,https://huggingface.co/reflection/Beam-1.0-501B-A23B
-org:reflection,Organization,Reflection,https://huggingface.co/blog/reflection-beam
-method:beam_harness,Method,Rust harness 与跨轮上下文管理,https://huggingface.co/blog/reflection-beam
-topic:coding_agents,Topic,编码与长程工具智能体,https://huggingface.co/blog/reflection-beam
-news:2026-10-17:3,News,Granite Switch 4.1：聊天、决策和语音共享一个端点,https://huggingface.co/blog/ibm-granite/granite-switch-4-1
-method:granite_switch_41,Method,Granite Switch 4.1,https://huggingface.co/ibm-granite/granite-switch-4.1-8b
-org:ibm,Organization,IBM,https://huggingface.co/blog/ibm-granite/granite-switch-4-1
-method:alora_cache_reuse,Method,Activated LoRA 与 KV cache 复用,https://huggingface.co/blog/ibm-granite/granite-switch-4-1
+topic:reliable_agents,Topic,可靠性与可重复执行,https://arxiv.org/abs/2608.19741
+news:2026-10-29:1,News,Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox,https://huggingface.co/blog/microsoft/thinkingbox-training
+method:executable_rl_reward,Method,可执行终态奖励与 policy-relative difficulty,https://huggingface.co/blog/microsoft/thinkingbox-training
+news:2026-10-29:2,News,LFM3：为端侧专用智能打造一套共享骨干,https://huggingface.co/blog/LiquidAI/lfm3
+method:lfm3_specialized_backbone,Method,共享骨干的端侧专用多模态 Agent,https://huggingface.co/blog/LiquidAI/lfm3
+news:2026-10-29:3,News,NoveltyBench：LLM 评审研究想法的新颖性并不稳定,https://huggingface.co/blog/allenai/novelty-bench
+method:novelty_judge_benchmark,Method,研究想法新颖性评测基准,https://huggingface.co/blog/allenai/novelty-bench
+org:allenai,Organization,Allen Institute for AI,https://huggingface.co/blog/allenai/novelty-bench
+topic:research_agents,Topic,科学研究智能体,https://huggingface.co/blog/allenai/novelty-bench
+paper:2610.02022,Paper,"Old Ideas, Novel Problems / NoveltyBench",https://arxiv.org/abs/2610.02022

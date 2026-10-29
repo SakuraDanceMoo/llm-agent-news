@@ -60,3 +60,20 @@ method:alora_cache_reuse,topic:enterprise_agents,supports,https://huggingface.co
 method:reflection_beam,method:on_device_moe,contrasts_with,curated synthesis: both sparse MoEs; total weight memory and deployment scale differ
 method:muse_spark_open,method:agentic_rl,complements,curated synthesis: multimodal observation and agent training are complementary research axes
 method:granite_switch_41,method:source_aware,complements,curated synthesis: safety decisions and source factuality checks cover different validation needs
+topic:llm_agents,news:2026-10-29:1,covers,automated first-party feed
+news:2026-10-29:1,paper:2608.19741,links_to,first-party article page
+org:microsoft,news:2026-10-29:1,announces,https://huggingface.co/blog/microsoft/thinkingbox-training
+news:2026-10-29:1,method:executable_rl_reward,introduces,https://huggingface.co/blog/microsoft/thinkingbox-training
+method:executable_rl_reward,topic:reliable_agents,supports,https://huggingface.co/blog/microsoft/thinkingbox-training
+news:2026-10-29:1,paper:2608.19741,describes,https://arxiv.org/abs/2608.19741
+topic:llm_agents,news:2026-10-29:2,covers,https://huggingface.co/blog/LiquidAI/lfm3
+org:liquid_ai,news:2026-10-29:2,announces,https://huggingface.co/blog/LiquidAI/lfm3
+news:2026-10-29:2,method:lfm3_specialized_backbone,introduces,https://huggingface.co/blog/LiquidAI/lfm3
+method:lfm3_specialized_backbone,topic:multimodal_agents,supports,https://huggingface.co/blog/LiquidAI/lfm3
+topic:llm_agents,news:2026-10-29:3,covers,https://huggingface.co/blog/allenai/novelty-bench
+org:allenai,news:2026-10-29:3,announces,https://huggingface.co/blog/allenai/novelty-bench
+news:2026-10-29:3,method:novelty_judge_benchmark,introduces,https://huggingface.co/blog/allenai/novelty-bench
+method:novelty_judge_benchmark,topic:research_agents,supports,https://huggingface.co/blog/allenai/novelty-bench
+topic:research_agents,topic:llm_agents,subtopic,curated synthesis
+news:2026-10-29:3,paper:2610.02022,describes,https://arxiv.org/abs/2610.02022
+method:executable_rl_reward,method:repeatability,supports,curated synthesis: repeatability is measured by 20/20 terminal-state outcomes

@@ -1,67 +1,65 @@
-# 大模型智能体资讯｜2026-10-17
+# 大模型智能体资讯｜2026-10-29
 
-抓取时间：2026-10-17T11:35:34.674259+08:00（Asia/Hong_Kong）。
+抓取时间：2026-10-29T16:14:00.226223+08:00（Asia/Hong_Kong）。
 
-按研究/工程重要性、Agent 相关性、新鲜度和页面热度综合排序。页面点赞仅作局部热度参考，不代表全网排名。已核验的候选包括下列三篇；额外读取的 OpenAI RSS 仅作发现线索，正文访问被拒绝的条目未作为事实依据。
+本次按技术/研究重要性、Agent 相关性、新鲜度和一手页面热度综合排序。页面点赞只作为局部热度参考，不代表全网排名。
 
-## 1. Muse Spark Open：把截图、音视频和代码纳入同一个 Agent
+## 1. ThinkingBox-Training：把数据库终态检查变成 Agent 的 RL 奖励
 
-发布时间：2026-10-15。来源：[Meta / Hugging Face 文章](https://huggingface.co/blog/meta-muse-spark-open)｜[模型页面](https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B)。
-
-排名依据：多模态观察与长任务自纠错直接关联 GUI Agent 研究；开放权重使观察条件对照更容易设计。
+发布时间：2026-10-22。来源：[Microsoft / Hugging Face 文章](https://huggingface.co/blog/microsoft/thinkingbox-training)。页面热度参考：22 个赞。
 
 ### 问题是什么
 
-**事实归纳**：长程开发与电脑操作任务往往混合代码、截图、语音和屏幕录制。Agent 需要在这些观察之间保持任务上下文，并在规划、行动、观察和修正之间持续推进。
+**事实归纳**：工具调用看似成功不等于业务状态正确；训练 Agent 时，如果奖励只看文本或单次成功，也难以推动可重复、无多余副作用的终态。
 
 ### 方法是什么
 
-**来源报告**：Hugging Face 集成文章介绍 Meta 的 Muse Spark Open：约 816B 总参数、每 token 约 42B 激活参数的开放权重 MoE，接收文本、图像、音频和视频，输出文本，模型上下文上限约 1M tokens；面向多文件重构、调试及工具调用训练，并提供 llama.cpp、MLX、SGLang、vLLM 等推理方案。文章中的具体部署配置有 128K 等较低上下文设置，不能把模型上限视为每个后端的默认值。
+**来源报告**：ThinkingBox 用可执行的数据库终态检查产生 0/1 奖励，在基准之外的任务池上进行 GRPO 后训练。任务池先用基础策略的离线成功率估计 policy-relative difficulty，只保留能产生混合成败奖励的任务。Qwen3.8-27B 训练 50 步后，pass@1 从 51.70% 升到 60.78%，20 次全部成功的任务从 38 个增至 107 个；但 pass@20 略降，说明覆盖面和重复可靠性存在权衡。
 
 ### 启发是什么
 
-推断与建议：在 GUI Agent 实验中，把“截图”“截图加历史轨迹”“截图加屏幕录制”等观察条件分开比较，检查多模态输入是否改善定位和失败恢复。增加长上下文成本、工具成功率和恢复成功率指标；开放权重不等于低资源可部署，全部权重和 KV cache 仍占用大量内存。
+推断与建议：把最终状态断言直接接入训练奖励时，必须保证训练与评测使用同一套工具调用解析器，并同时报告 pass@1、至少成功一次和 k 次全部成功。任务池不应只挑容易任务或全失败任务，应先探测当前策略的难度分布。
 
-## 2. Reflection Beam：开放长上下文编码 Agent 的模型与运行框架
+## 2. LFM3：为端侧专用智能打造一套共享骨干
 
-发布时间：2026-10-16。来源：[Reflection / Hugging Face 文章](https://huggingface.co/blog/reflection-beam)｜[模型页面](https://huggingface.co/reflection/Beam-1.0-501B-A23B)。
-
-排名依据：最新发布，提供可定制编码 Agent 的模型、工具协议解析和配套 harness，复现实验路径较完整。
+发布时间：2026-10-27。来源：[Liquid AI / Hugging Face 文章](https://huggingface.co/blog/LiquidAI/lfm3)。页面热度参考：71 个赞。
 
 ### 问题是什么
 
-**事实归纳**：团队希望在自有基础设施上定制复杂编码和工具调用 Agent，但除了权重，还需要长上下文管理、工具调用解析，以及与模型配套的运行框架和训练配方。
+**事实归纳**：Agent 应用需要文本、视觉、语音和决策能力，但大模型部署成本高，通用模型也未必适合具体工具、术语和设备。
 
 ### 方法是什么
 
-**来源报告**：文章介绍 Beam：501B 总参数、每 token 约 23B 激活参数的文本 MoE，约 1M 上下文，Apache 2.0 许可；配套 Rust Agent harness、工具调用专用语法、跨轮保留思考的选项，以及推理、SFT 和 RL 配方。混合滑窗与全局注意力减少 KV cache 增长。文章转述发布方的 BF16 成绩为 SWE-bench Verified 81.6%、Terminal Bench v2.1 80.1%，尚未本地复现。
+**来源报告**：LFM3 用同一 1.7B 级骨干分支出文本、视觉、音频、Omni 和决策模型，采用卷积、滑窗注意力和全局注意力组成的 tri-hybrid 架构，并用硬件在环搜索覆盖 14 种设备/后端。文章称文本模型 4-bit 约 1 GB、上下文 256K，并在更多 Agent 轨迹与工具调用上做中期训练；LFM3-1.7B 在 WebArena-Verified 上报告 38.42，对比 LFM2.5-2.6B 的 3.02。
 
 ### 启发是什么
 
-推断与建议：对比 Agent 时固定工具、预算和任务，分别替换模型与 harness，辨别性能提升来自哪一层。额外比较保留跨轮思考和上下文压缩对长任务的影响；23B 激活参数描述计算量，部署仍需容纳 501B 权重，不能据此判断单张消费卡可运行。
+推断与建议：端侧 Agent 基线应把骨干模型大小和专用分支/工具适配分开评估。可用同一骨干分别测试文本、视觉和语音工具调用，再测单 GPU 微调后的任务成功率、延迟、内存和跨设备稳定性。发布方基准仍需独立复现。
 
-## 3. Granite Switch 4.1：聊天、决策和语音共享一个端点
+## 3. NoveltyBench：LLM 评审研究想法的新颖性并不稳定
 
-发布时间：2026-10-15。来源：[IBM Granite 文章](https://huggingface.co/blog/ibm-granite/granite-switch-4-1)｜[模型页面](https://huggingface.co/ibm-granite/granite-switch-4.1-8b)。
-
-排名依据：文章热度较高，且给出可组合的决策、安全与语音模块，对降低 Agent 流程开销有直接工程价值。
+发布时间：2026-10-27。来源：[Allen Institute for AI / Hugging Face 文章](https://huggingface.co/blog/allenai/novelty-bench)。页面热度参考：12 个赞。
 
 ### 问题是什么
 
-**事实归纳**：多步 Agent 流程经常交替进行聊天生成、安全审核、分类判断和语音转写；分别部署与重复处理相同前缀会增加延迟和资源开销。
+**事实归纳**：科学 Agent 可以生成看似合理的研究想法，但用另一个 LLM 判断其是否新颖时，提示词、检索和推理预算可能改变结论，导致自动化科研流程把不稳定的判断当成事实。
 
 ### 方法是什么
 
-**来源报告**：IBM 发布 Granite Switch 4.1 的 8B 与 30B 版本，把通用 Decision aLoRA、安全 Guardian aLoRA 与 Granite Speech 5.0 Turbo CTC 组合到一个端点。Activated LoRA 支持复用基础模型生成的 KV cache，以减少后续判断的重复前缀计算；文章展示语音转写、摘要和多项标记判断组成的流程。
+**来源报告**：Old Ideas, Novel Problems 从 ICLR 2026 评审中抽取 154 条高新颖性和 145 条低新颖性人类想法，并加入 154 条简单 LLM 生成想法，形成 Human-Only 与 Human+Generated 设置。NoveltyBench 逐项改变提示词、检索、格式、投票和推理预算，比较六个 LLM judge；文章还发布数据集、代码和论文 arXiv:2610.02022。
 
 ### 启发是什么
 
-推断与建议：把 Agent 中的高频决策节点单独计时，比较“独立模型”“普通 LoRA 切换”“共享前缀缓存的 aLoRA”三种方案；同时报告端到端时延、显存与判断准确率。共享端点和缓存是效率设计，实际收益仍需按工作流和硬件复现。
+推断与建议：研究 Agent 的新颖性不能只用一次 LLM 评分。应做提示词敏感性、模型间一致性、人工复核和时间切分评测，并把检索更多论文视为待验证变量。自动选题可先用低成本多数投票筛选，再将不一致样本送人工或专家模型复核。
+
+## 论文与 Zotero
+
+本次只有 NoveltyBench 对应新论文 [arXiv:2610.02022](https://arxiv.org/abs/2610.02022)，已标记为待写入 Zotero「大模型智能体」目录；当前环境未发现可用的 Zotero CLI 或本地服务，因此没有把“待写入”误报为“已入库”。ThinkingBox 是已有条目的后续训练文章，LFM3 是模型发布。
 
 ## 证据边界
 
-以上基于 Hugging Face 集成团队和 IBM 作者发布的原文。基准数字与部署表现为来源报告，未在本机复现；不同精度、harness、预算及硬件下不可直接混比。三条均为模型/工程发布，本次未新增论文条目，未写入 Zotero。
+事实来自各项目的一手发布文章及 NoveltyBench 论文链接；基准数字和性能均为发布方报告，未在本机复现。启发部分属于推断，不能视为原文结论。
 
 ## 信息联系图
 
-[可点击知识图谱](../knowledge_graph/graph.html)｜[SVG](../knowledge_graph/graph.svg)。本次新增资讯与模型方法、组织、主题相连，并与历史的端侧 MoE、Agentic RL 和企业 Agent 研究建立综合推断关系。
+[Anatomy 可追溯知识图谱](../knowledge_graph/graph.html)｜[SVG](../knowledge_graph/graph.svg)。本次新增资讯与方法、组织、主题相连，并连接到 ThinkingBox 既有论文或 NoveltyBench 新论文。

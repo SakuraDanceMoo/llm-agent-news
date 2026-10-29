@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Asia/Hong_Kong",
+  "source": "https://huggingface.co/blog/feed.xml",
+  "items": [
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "published": "Thu, 22 Oct 2026 22:24:34 GMT",
+      "arxiv_ids": [
+        "2503.14476",
+        "2504.13837",
+        "2608.19741"
+      ]
+    }
+  ]
+}

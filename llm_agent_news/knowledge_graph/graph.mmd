@@ -4,102 +4,128 @@ graph LR
   n2["EnterpriseOps-Gym 数据集"]
   n3["ThinkingBox-bench 数据集"]
   n4["Agentic RL 与工具轨迹训练"]
-  n5["Claim-to-source 映射"]
-  n6["失败驱动任务课程"]
-  n7["端侧低激活参数 MoE Agent"]
-  n8["重复运行可靠性评估"]
-  n9["来源级事实性验证"]
-  n10["可执行任务验证器"]
-  n11["终端状态与副作用验收"]
-  n12["ThinkingBox 资讯"]
-  n13["AutoSynthData 资讯"]
-  n14["ProvenanceGuard 资讯"]
-  n15["Run fast, private agents on-device with LFM2.5-24B-A2B"]
-  n16["Liquid AI"]
-  n17["Microsoft"]
-  n18["Multiverse Computing"]
-  n19["ServiceNow CoreAI"]
-  n20["arXiv:2210.08726"]
-  n21["EnterpriseOps-Gym"]
-  n22["ProvenanceGuard"]
-  n23["One Success Isn&#x27;t Reliability: ThinkingBox"]
-  n24["Model Context Protocol"]
-  n25["企业智能体训练与评测"]
-  n26["大模型智能体"]
-  n27["MCP 工具调用与来源归因"]
-  n28["可靠性与可重复执行"]
-  n29["Muse Spark Open：把截图、音视频和代码纳入同一个 Agent"]
-  n30["Muse Spark Open 多模态 MoE"]
-  n31["Meta"]
-  n32["多模态观察与长任务自纠错"]
-  n33["多模态与 GUI 智能体"]
-  n34["Reflection Beam：开放长上下文编码 Agent 的模型与运行框架"]
-  n35["Beam 长上下文编码 MoE"]
-  n36["Reflection"]
-  n37["Rust harness 与跨轮上下文管理"]
-  n38["编码与长程工具智能体"]
-  n39["Granite Switch 4.1：聊天、决策和语音共享一个端点"]
-  n40["Granite Switch 4.1"]
-  n41["IBM"]
-  n42["Activated LoRA 与 KV cache 复用"]
-  n26 -->|covers| n12
-  n26 -->|covers| n13
-  n26 -->|covers| n14
-  n12 -->|describes| n23
-  n13 -->|describes| n21
-  n14 -->|describes| n22
-  n23 -->|introduces| n1
-  n21 -->|defines| n0
-  n23 -->|releases| n3
-  n21 -->|evaluates| n2
-  n23 -->|operationalizes| n11
-  n23 -->|measures| n8
-  n21 -->|inspires| n6
-  n21 -->|uses| n10
-  n22 -->|defines| n9
-  n22 -->|implements| n5
-  n22 -->|targets| n24
-  n11 -->|supports| n28
-  n8 -->|supports| n28
-  n6 -->|supports| n25
-  n10 -->|supports| n25
-  n9 -->|supports| n27
-  n5 -->|supports| n27
-  n28 -->|subtopic| n26
-  n25 -->|subtopic| n26
-  n27 -->|subtopic| n26
-  n23 -->|complements| n21
-  n21 -->|complements| n22
-  n17 -->|publishes| n12
-  n19 -->|publishes| n13
-  n18 -->|publishes| n14
-  n12 -->|links_to| n23
-  n13 -->|links_to| n21
-  n14 -->|links_to| n20
-  n14 -->|links_to| n22
-  n26 -->|covers| n15
-  n16 -->|publishes| n15
-  n15 -->|introduces| n7
-  n15 -->|uses| n4
-  n7 -->|supports| n26
-  n4 -->|supports| n26
-  n26 -->|covers| n29
-  n31 -->|announces| n29
-  n29 -->|introduces| n30
-  n30 -->|uses| n32
-  n32 -->|supports| n33
-  n33 -->|subtopic| n26
-  n26 -->|covers| n34
-  n36 -->|announces| n34
-  n34 -->|introduces| n35
-  n35 -->|uses| n37
-  n37 -->|supports| n38
-  n38 -->|subtopic| n26
-  n26 -->|covers| n39
-  n41 -->|publishes| n39
-  n39 -->|introduces| n40
-  n40 -->|uses| n42
-  n42 -->|supports| n25
-  n35 -->|contrasts_with| n7
-  n30 -->|complements| n4
-  n40 -->|complements| n9
+  n5["Activated LoRA 与 KV cache 复用"]
+  n6["Rust harness 与跨轮上下文管理"]
+  n7["Claim-to-source 映射"]
+  n8["失败驱动任务课程"]
+  n9["Granite Switch 4.1"]
+  n10["多模态观察与长任务自纠错"]
+  n11["Muse Spark Open 多模态 MoE"]
+  n12["端侧低激活参数 MoE Agent"]
+  n13["Beam 长上下文编码 MoE"]
+  n14["重复运行可靠性评估"]
+  n15["来源级事实性验证"]
+  n16["可执行任务验证器"]
+  n17["终端状态与副作用验收"]
+  n18["ThinkingBox 资讯"]
+  n19["AutoSynthData 资讯"]
+  n20["ProvenanceGuard 资讯"]
+  n21["Run fast, private agents on-device with LFM2.5-24B-A2B"]
+  n22["Muse Spark Open：把截图、音视频和代码纳入同一个 Agent"]
+  n23["Reflection Beam：开放长上下文编码 Agent 的模型与运行框架"]
+  n24["Granite Switch 4.1：聊天、决策和语音共享一个端点"]
+  n25["IBM"]
+  n26["Liquid AI"]
+  n27["Meta"]
+  n28["Microsoft"]
+  n29["Multiverse Computing"]
+  n30["Reflection"]
+  n31["ServiceNow CoreAI"]
+  n32["arXiv:2210.08726"]
+  n33["EnterpriseOps-Gym"]
+  n34["ProvenanceGuard"]
+  n35["One Success Isn&#x27;t Reliability: ThinkingBox"]
+  n36["Model Context Protocol"]
+  n37["编码与长程工具智能体"]
+  n38["企业智能体训练与评测"]
+  n39["大模型智能体"]
+  n40["MCP 工具调用与来源归因"]
+  n41["多模态与 GUI 智能体"]
+  n42["可靠性与可重复执行"]
+  n43["Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox"]
+  n44["可执行终态奖励与 policy-relative difficulty"]
+  n45["LFM3：为端侧专用智能打造一套共享骨干"]
+  n46["共享骨干的端侧专用多模态 Agent"]
+  n47["NoveltyBench：LLM 评审研究想法的新颖性并不稳定"]
+  n48["研究想法新颖性评测基准"]
+  n49["Allen Institute for AI"]
+  n50["科学研究智能体"]
+  n51["Old Ideas, Novel Problems / NoveltyBench"]
+  n39 -->|covers| n18
+  n39 -->|covers| n19
+  n39 -->|covers| n20
+  n18 -->|describes| n35
+  n19 -->|describes| n33
+  n20 -->|describes| n34
+  n35 -->|introduces| n1
+  n33 -->|defines| n0
+  n35 -->|releases| n3
+  n33 -->|evaluates| n2
+  n35 -->|operationalizes| n17
+  n35 -->|measures| n14
+  n33 -->|inspires| n8
+  n33 -->|uses| n16
+  n34 -->|defines| n15
+  n34 -->|implements| n7
+  n34 -->|targets| n36
+  n17 -->|supports| n42
+  n14 -->|supports| n42
+  n8 -->|supports| n38
+  n16 -->|supports| n38
+  n15 -->|supports| n40
+  n7 -->|supports| n40
+  n42 -->|subtopic| n39
+  n38 -->|subtopic| n39
+  n40 -->|subtopic| n39
+  n35 -->|complements| n33
+  n33 -->|complements| n34
+  n28 -->|publishes| n18
+  n31 -->|publishes| n19
+  n29 -->|publishes| n20
+  n18 -->|links_to| n35
+  n19 -->|links_to| n33
+  n20 -->|links_to| n32
+  n20 -->|links_to| n34
+  n39 -->|covers| n21
+  n26 -->|publishes| n21
+  n21 -->|introduces| n12
+  n21 -->|uses| n4
+  n12 -->|supports| n39
+  n4 -->|supports| n39
+  n39 -->|covers| n22
+  n27 -->|announces| n22
+  n22 -->|introduces| n11
+  n11 -->|uses| n10
+  n10 -->|supports| n41
+  n41 -->|subtopic| n39
+  n39 -->|covers| n23
+  n30 -->|announces| n23
+  n23 -->|introduces| n13
+  n13 -->|uses| n6
+  n6 -->|supports| n37
+  n37 -->|subtopic| n39
+  n39 -->|covers| n24
+  n25 -->|publishes| n24
+  n24 -->|introduces| n9
+  n9 -->|uses| n5
+  n5 -->|supports| n38
+  n13 -->|contrasts_with| n12
+  n11 -->|complements| n4
+  n9 -->|complements| n15
+  n39 -->|covers| n43
+  n43 -->|links_to| n35
+  n28 -->|announces| n43
+  n43 -->|introduces| n44
+  n44 -->|supports| n42
+  n43 -->|describes| n35
+  n39 -->|covers| n45
+  n26 -->|announces| n45
+  n45 -->|introduces| n46
+  n46 -->|supports| n41
+  n39 -->|covers| n47
+  n49 -->|announces| n47
+  n47 -->|introduces| n48
+  n48 -->|supports| n50
+  n50 -->|subtopic| n39
+  n47 -->|describes| n51
+  n44 -->|supports| n14
